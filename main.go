@@ -30,7 +30,7 @@ func Parse(args []string) *lib.Criteria {
 		} else if thisArg == "Append" {
 			save.Append = nextArg
 			index++
-		} else if thisArg == "SaveToo" {
+		} else if thisArg == lib.SaveNew {
 			save = clause.NewSave()
 		} else if strings.HasPrefix(thisArg, "Check") {
 			clause.Check = thisArg

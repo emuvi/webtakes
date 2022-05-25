@@ -23,6 +23,8 @@ type Save struct {
 	Append  string
 }
 
+const SaveNew = "SaveNew"
+
 const (
 	CheckTag   = "CheckTag"
 	CheckAttr  = "CheckAttr"
