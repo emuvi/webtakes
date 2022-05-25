@@ -1,0 +1,827 @@
+htmlheadtitle Pensamentos - Pensador
+style .async-hide{opacity:0!important}
+ script (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-TTRDWTG':true});
+ metametametametametametametametametametametametametametametametametalinklinklinklinklinklinkstyle @font-face{font-family:pf;font-style:normal;font-weight:400;src:url(/dist/fonts/pf.f41d2b3efd8dffab7d31e4ab37f2f32d.eot);src:url(/dist/fonts/pf.f41d2b3efd8dffab7d31e4ab37f2f32d.eot) format("embedded-opentype"),url(/dist/fonts/pf.6e584f641db61d5f00f36d7d9cb464f4.woff2) format("woff2"),url(/dist/fonts/pf.ecbfe2eba3b749182b7bba05ff874694.woff) format("woff"),url(/dist/fonts/pf.c934dca7f201b2fe37f048ca982bd366.ttf) format("truetype"),url(/dist/fonts/pf.47a076bf855de24d1d8b484ebac8e965.svg) format("svg")}#sidebar .addQuote span:before,.icon-arrow-right:before,.icon-at:before,.icon-caret-down:before,.icon-close:before,.icon-collection:before,.icon-desktop:before,.icon-dots:before,.icon-edit:before,.icon-feedback-happy:before,.icon-feedback-sad:before,.icon-heart-l:before,.icon-heart:before,.icon-house:before,.icon-image:before,.icon-locker:before,.icon-logo7g:before,.icon-magnifier:before,.icon-mail:before,.icon-menu:before,.icon-pensador:before,.icon-plus-circle:before,.icon-plus:before,.icon-power:before,.icon-report:before,.icon-settings:before,.icon-sg-social-facebook:before,.icon-sg-social-pinterest:before,.icon-sg-social-twitter:before,.icon-sg-social-whatsapp:before,.icon-share:before,.icon-spinner:before,.icon-user-plus:before,.icon-user:before,.icon-youtube:before,.pensaReport span:before,.phrase_image+.report span:before,[class*=" icon-"],[class^=icon-]{font:normal normal normal 14px/1 pf;font-size:inherit;text-decoration:none;text-transform:none;line-height:inherit;display:block;vertical-align:middle;min-width:1em;text-rendering:auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-sg-social-facebook:before{content:"";display:block}.icon-sg-social-twitter:before{content:"";display:block}.icon-sg-social-whatsapp:before{content:"";display:block}.icon-sg-social-pinterest:before{content:"";display:block}.icon-image:before{content:"";display:block}.icon-magnifier:before{content:"";display:block}.icon-menu:before{content:"";display:block}.icon-report:before,.pensaReport span:before,.phrase_image+.report span:before{content:"";display:block}.icon-user:before{content:"";display:block}.icon-dots:before{content:"";display:block}.icon-edit:before{content:"";display:block}.icon-spinner:before{content:"";display:block}.icon-house:before{content:"";display:block}.icon-user-plus:before{content:"";display:block}.icon-collection:before{content:"";display:block}.icon-power:before{content:"";display:block}.icon-settings:before{content:"";display:block}.icon-arrow-right:before{content:"";display:block}.icon-pensador:before{content:"";display:block}#sidebar .addQuote span:before,.icon-plus-circle:before{content:"";display:block}.icon-desktop:before{content:"";display:block}.icon-logo7g:before{content:"";display:block}.icon-at:before{content:"";display:block}.icon-locker:before{content:"";display:block}.icon-close:before{content:"";display:block}.icon-mail:before{content:"";display:block}.icon-plus:before{content:"";display:block}.icon-share:before{content:"";display:block}.icon-heart:before{content:"";display:block}.icon-heart-l:before{content:"";display:block}.icon-caret-down:before{content:"";display:block}.icon-youtube:before{content:"";display:block}.icon-feedback-happy:before{content:"";display:block}.icon-feedback-sad:before{content:"";display:block}/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=4f08df8824f35a50dbdf)
+ * Config saved to config.json and https://gist.github.com/4f08df8824f35a50dbdf
+ *//*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}.small,small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{margin:0;font-size:100%;vertical-align:baseline}fieldset,legend{padding:0;border:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*,:after,:before{box-sizing:border-box}html{-webkit-tap-highlight-color:rgba(0,0,0,.1)}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:769px){.container{width:100%;max-width:100%}}@media (min-width:1046px){.container{width:1030px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}#sidebar,.col-md-8,.col-md-12,.col-xs-3,.col-xs-7,.col-xs-12,.form .form-group.check,.form .form-group .wrapper,.form .form-group label{position:relative;min-height:1px;padding-left:15px;padding-right:15px}#sidebar,.col-xs-3,.col-xs-7,.col-xs-12,.form .form-group.check,.form .form-group .wrapper,.form .form-group label{float:left}#sidebar,.col-xs-12{width:100%}.col-xs-7,.form .form-group.check,.form .form-group .wrapper{width:58.33333333%}.col-xs-3,.form .form-group label{width:25%}.col-xs-offset-3,.form .form-group.check,.form .form-group .wrapper.input{margin-left:25%}@media (min-width:769px){#sidebar,.col-sm-4,.col-sm-8{float:left}.col-sm-8{width:66.66666667%}#sidebar,.col-sm-4{width:33.33333333%}}@media (min-width:1046px){.col-md-8,.col-md-12{float:left}.col-md-12{width:100%}.col-md-8{width:66.66666667%}}.embed-responsive,.videoWrapper{position:relative;display:block;height:0;padding:0;overflow:hidden}.embed-responsive .embed-responsive-item,.embed-responsive .videoWrapper iframe,.embed-responsive embed,.embed-responsive iframe,.embed-responsive object,.videoWrapper .embed-responsive-item,.videoWrapper .embed-responsive iframe,.videoWrapper embed,.videoWrapper iframe,.videoWrapper object{position:absolute;top:0;left:0;bottom:0;height:100%;width:100%;border:0}.embed-responsive.embed-responsive-16by9,.videoWrapper{padding-bottom:56.25%}.embed-responsive-4by3.videoWrapper,.embed-responsive.embed-responsive-4by3{padding-bottom:75%}.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before,.row:after,.row:before{content:" ";display:table}.clearfix:after,.container-fluid:after,.container:after,.row:after{clear:both}.pull-right{float:right!important}.pull-left{float:left!important}#user-menu .xyz,.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.visible{display:block!important;visibility:visible!important}@-ms-viewport{width:device-width}#header.home #user-menu .xyz,.visible-md,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-sm,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-xs,.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block{display:none!important}@media (max-width:768px){.visible-xs{display:block!important}table.visible-xs{display:table}tr.visible-xs{display:table-row!important}td.visible-xs,th.visible-xs{display:table-cell!important}}@media (max-width:768px){.visible-xs-block{display:block!important}}@media (max-width:768px){.visible-xs-inline{display:inline!important}}@media (max-width:768px){.visible-xs-inline-block{display:inline-block!important}}@media (min-width:769px) and (max-width:1045px){.visible-sm{display:block!important}table.visible-sm{display:table}tr.visible-sm{display:table-row!important}td.visible-sm,th.visible-sm{display:table-cell!important}}@media (min-width:769px) and (max-width:1045px){.visible-sm-block{display:block!important}}@media (min-width:769px) and (max-width:1045px){.visible-sm-inline{display:inline!important}}@media (min-width:769px) and (max-width:1045px){.visible-sm-inline-block{display:inline-block!important}}@media (min-width:1046px){.visible-md,.visible-md-block{display:block!important}}@media (min-width:1046px){.visible-md-inline{display:inline!important}}@media (min-width:1046px){#header.home #user-menu .xyz,.visible-md-inline-block{display:inline-block!important}}@media (max-width:768px){.breadcrumbs,.hidden-xs{display:none!important}}@media (min-width:769px){.hidden-sm{display:none!important}}@media (min-width:1046px){.hidden-md{display:none!important}}body{background:#fff;font-family:Helvetica,Arial,sans-serif;font-size:16px;line-height:1.4;color:#333;position:relative}body.y-hidden{overflow-y:hidden}img{max-width:100%;height:auto}ul.custom{padding-left:0}ul.custom li{list-style:none;padding-left:30px;margin-bottom:15px}ul.custom li:before{content:"•";position:absolute;display:inline-block;color:#7b756e;margin-left:-20px;text-align:right}ul.custom.col2:after,ul.custom.col2:before{content:" ";display:table}ul.custom.col2:after{clear:both}ul.custom.col2 li{width:50%;float:left}#content.category .left-c .block.full .cats-list-l h2,#content.category .left-c .block.full h2,#content.category .left-c .block.half-1 h3,#content .outros-contents .art-share .cats-list-l .numbers,#content .outros-contents .art-share .numbers,#content .outros-contents .cats-list-l .h2,#content .outros-contents .cats-list-l .h3,#content .outros-contents .cats-list-l .h4,#content .outros-contents .cats-list-l h2,#content .outros-contents .cats-list-l h3,#content .outros-contents .cats-list-l h4,#content .outros-contents .h2,#content .outros-contents .h3,#content .outros-contents .h4,#content .outros-contents h2,#content .outros-contents h3,#content .outros-contents h4,#content h1.titFrase,#sidebar .resumo .cats-list-l .title,#sidebar .resumo .title,#sidebar .right-c .block .cats-list-l h2,#sidebar .right-c .block h2,.art-share #content .outros-contents .cats-list-l .numbers,.art-share #content .outros-contents .numbers,.art-share .cats-list-l .numbers,.art-share .cats-list-nol .numbers,.art-share .numbers,.cats-list-l #content.category .left-c .block.full h2,.cats-list-l #content .outros-contents .art-share .numbers,.cats-list-l #content .outros-contents .h2,.cats-list-l #content .outros-contents .h3,.cats-list-l #content .outros-contents .h4,.cats-list-l #content .outros-contents h2,.cats-list-l #content .outros-contents h3,.cats-list-l #content .outros-contents h4,.cats-list-l #sidebar .resumo .title,.cats-list-l #sidebar .right-c .block h2,.cats-list-l .art-share #content .outros-contents .numbers,.cats-list-l .art-share .numbers,.cats-list-l .cats-list-nol h2,.cats-list-l .cats-list-nol h3,.cats-list-l .cats-list-nol h4,.cats-list-l .h2,.cats-list-l .h3,.cats-list-l .h4,.cats-list-l h2,.cats-list-l h3,.cats-list-l h4,.cats-list-nol .art-share .numbers,.cats-list-nol .cats-list-l h2,.cats-list-nol .cats-list-l h3,.cats-list-nol .cats-list-l h4,.cats-list-nol .h2,.cats-list-nol .h3,.cats-list-nol .h4,.cats-list-nol h2,.cats-list-nol h3,.cats-list-nol h4,.h1,.h2,.h3,.h4,.h5,h1,h2,h3,h4,h5{padding:.5em 0;display:block;clear:both}#content.category .left-c .block.full .cats-list-l h2,#content.category .left-c .block.full .cats-list-l h2 a,#content.category .left-c .block.full h2,#content.category .left-c .block.full h2 a,#content .outros-contents .art-share .cats-list-l .numbers,#content .outros-contents .art-share .cats-list-l .numbers a,#content .outros-contents .art-share .numbers,#content .outros-contents .art-share .numbers a,#content .outros-contents .cats-list-l .h2,#content .outros-contents .cats-list-l .h2 a,#content .outros-contents .cats-list-l .h3,#content .outros-contents .cats-list-l .h3 a,#content .outros-contents .cats-list-l .h4,#content .outros-contents .cats-list-l .h4 a,#content .outros-contents .cats-list-l h2,#content .outros-contents .cats-list-l h2 a,#content .outros-contents .cats-list-l h3,#content .outros-contents .cats-list-l h3 a,#content .outros-contents .cats-list-l h4,#content .outros-contents .cats-list-l h4 a,#content .outros-contents .h2,#content .outros-contents .h2 a,#content .outros-contents .h3,#content .outros-contents .h3 a,#content .outros-contents .h4,#content .outros-contents .h4 a,#content .outros-contents h2,#content .outros-contents h2 a,#content .outros-contents h3,#content .outros-contents h3 a,#content .outros-contents h4,#content .outros-contents h4 a,#sidebar .resumo .cats-list-l .title,#sidebar .resumo .cats-list-l .title a,#sidebar .resumo .title,#sidebar .resumo .title a,#sidebar .right-c .block .cats-list-l h2,#sidebar .right-c .block .cats-list-l h2 a,#sidebar .right-c .block h2,#sidebar .right-c .block h2 a,.art-share #content .outros-contents .cats-list-l .numbers,.art-share #content .outros-contents .cats-list-l .numbers a,.art-share #content .outros-contents .numbers,.art-share #content .outros-contents .numbers a,.art-share .cats-list-l .numbers,.art-share .cats-list-l .numbers a,.art-share .cats-list-nol .numbers,.art-share .cats-list-nol .numbers a,.art-share .numbers,.art-share .numbers a,.cats-list-l #content.category .left-c .block.full h2,.cats-list-l #content.category .left-c .block.full h2 a,.cats-list-l #content .outros-contents .art-share .numbers,.cats-list-l #content .outros-contents .art-share .numbers a,.cats-list-l #content .outros-contents .h2,.cats-list-l #content .outros-contents .h2 a,.cats-list-l #content .outros-contents .h3,.cats-list-l #content .outros-contents .h3 a,.cats-list-l #content .outros-contents .h4,.cats-list-l #content .outros-contents .h4 a,.cats-list-l #content .outros-contents h2,.cats-list-l #content .outros-contents h2 a,.cats-list-l #content .outros-contents h3,.cats-list-l #content .outros-contents h3 a,.cats-list-l #content .outros-contents h4,.cats-list-l #content .outros-contents h4 a,.cats-list-l #sidebar .resumo .title,.cats-list-l #sidebar .resumo .title a,.cats-list-l #sidebar .right-c .block h2,.cats-list-l #sidebar .right-c .block h2 a,.cats-list-l .art-share #content .outros-contents .numbers,.cats-list-l .art-share #content .outros-contents .numbers a,.cats-list-l .art-share .numbers,.cats-list-l .art-share .numbers a,.cats-list-l .cats-list-nol h2,.cats-list-l .cats-list-nol h2 a,.cats-list-l .cats-list-nol h3,.cats-list-l .cats-list-nol h3 a,.cats-list-l .cats-list-nol h4,.cats-list-l .cats-list-nol h4 a,.cats-list-l .h2,.cats-list-l .h2 a,.cats-list-l .h3,.cats-list-l .h3 a,.cats-list-l .h4,.cats-list-l .h4 a,.cats-list-l h2,.cats-list-l h2 a,.cats-list-l h3,.cats-list-l h3 a,.cats-list-l h4,.cats-list-l h4 a,.cats-list-nol .art-share .numbers,.cats-list-nol .art-share .numbers a,.cats-list-nol .cats-list-l h2,.cats-list-nol .cats-list-l h2 a,.cats-list-nol .cats-list-l h3,.cats-list-nol .cats-list-l h3 a,.cats-list-nol .cats-list-l h4,.cats-list-nol .cats-list-l h4 a,.cats-list-nol .h2,.cats-list-nol .h2 a,.cats-list-nol .h3,.cats-list-nol .h3 a,.cats-list-nol .h4,.cats-list-nol .h4 a,.cats-list-nol h2,.cats-list-nol h2 a,.cats-list-nol h3,.cats-list-nol h3 a,.cats-list-nol h4,.cats-list-nol h4 a,.h1,.h1 a,.h2,.h2 a,.h3,.h3 a,.h4,.h4 a,h1,h1 a,h2,h2 a,h3,h3 a,h4,h4 a{color:#403e3b}#content.category .left-c .block.full h2,#content.category .left-c .block.half-1 h3,#content .outros-contents .art-share .numbers,#content .outros-contents .h2,#content .outros-contents .h3,#content .outros-contents .h4,#content .outros-contents h2,#content .outros-contents h3,#content .outros-contents h4,#content h1.titFrase,#sidebar .resumo .title,#sidebar .right-c .block h2,.art-share #content .outros-contents .numbers,.art-share .cats-list-nol .numbers,.art-share .numbers,.cats-list-nol .art-share .numbers,.cats-list-nol .h2,.cats-list-nol .h3,.cats-list-nol .h4,.cats-list-nol h2,.cats-list-nol h3,.cats-list-nol h4,.h1,.h2,.h4,.h5,h1,h2,h4,h5{font-weight:700;-webkit-font-smoothing:antialiased}.h1,h1{font-size:1.875rem;word-wrap:break-word}.art-share .numbers,.h2,h2{font-size:1.5rem}#content.category .left-c .block.full .cats-list-l h2,#content .outros-contents .art-share .cats-list-l .numbers,#content .outros-contents .cats-list-l .h2,#content .outros-contents .cats-list-l .h3,#content .outros-contents .cats-list-l .h4,#content .outros-contents .cats-list-l h2,#content .outros-contents .cats-list-l h3,#content .outros-contents .cats-list-l h4,#sidebar .resumo .cats-list-l .title,#sidebar .right-c .block .cats-list-l h2,.art-share #content .outros-contents .cats-list-l .numbers,.art-share .cats-list-l .numbers,.cats-list-l #content.category .left-c .block.full h2,.cats-list-l #content .outros-contents .art-share .numbers,.cats-list-l #content .outros-contents .h2,.cats-list-l #content .outros-contents .h3,.cats-list-l #content .outros-contents .h4,.cats-list-l #content .outros-contents h2,.cats-list-l #content .outros-contents h3,.cats-list-l #content .outros-contents h4,.cats-list-l #sidebar .resumo .title,.cats-list-l #sidebar .right-c .block h2,.cats-list-l .art-share #content .outros-contents .numbers,.cats-list-l .art-share .numbers,.cats-list-l .cats-list-nol h2,.cats-list-l .cats-list-nol h3,.cats-list-l .cats-list-nol h4,.cats-list-l .h2,.cats-list-l .h3,.cats-list-l .h4,.cats-list-l h2,.cats-list-l h3,.cats-list-l h4,.cats-list-nol .cats-list-l h2,.cats-list-nol .cats-list-l h3,.cats-list-nol .cats-list-l h4,.h3,h3{font-size:1.25rem;font-weight:400}#content.category .left-c .block.full h2,#content .outros-contents .art-share .numbers,#content .outros-contents .h2,#content .outros-contents .h3,#content .outros-contents .h4,#content .outros-contents h2,#content .outros-contents h3,#content .outros-contents h4,#sidebar .resumo .title,#sidebar .right-c .block h2,.art-share #content .outros-contents .numbers,.art-share .cats-list-nol .numbers,.cats-list-nol .art-share .numbers,.cats-list-nol .h2,.cats-list-nol .h3,.cats-list-nol .h4,.cats-list-nol h2,.cats-list-nol h3,.cats-list-nol h4,.h4,h4{font-size:1em;text-transform:uppercase}#content.category .left-c .block.half-1 h3,#content h1.titFrase,.h5,h5{color:#7b756e;font-size:1em}a{color:#0852ca;text-decoration:none}.p,p{margin:0;padding:.5em 0}.p.small,p.small{font-size:.875rem}button,input,keygen,select,textarea{font-family:Helvetica,Arial,sans-serif}input:not([type=checkbox]),textarea{border:1px solid #ccc;padding:0 10px;font-size:1em;color:#7b756e;-webkit-appearance:none;-moz-appearance:none;appearance:none}input:not([type=checkbox])::-webkit-input-placeholder,textarea::-webkit-input-placeholder{font-size:.75rem}input:not([type=checkbox]):-moz-placeholder,input:not([type=checkbox])::-moz-placeholder,textarea:-moz-placeholder,textarea::-moz-placeholder{font-size:.75rem}input:not([type=checkbox]):-ms-input-placeholder,textarea:-ms-input-placeholder{font-size:.75rem}textarea{padding:12px 10px}button,input,textarea{border-radius:4px}button,input:not([type=checkbox]){height:36px;line-height:36px}button.btn,button.txt,input:not([type=checkbox]).btn,input:not([type=checkbox]).txt{display:inline-block}button,input.btn{font-weight:700;text-align:center;white-space:nowrap;vertical-align:middle;background:#00ce71;border-color:rgba(0,0,0,.05);color:#fff;line-height:1;padding:0 10px;outline:none}.visually-hidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.text-center{text-align:center}#content.category .left-c .block.full .cats-list-l h2,#content .outros-contents .art-share .cats-list-l .numbers,#content .outros-contents .cats-list-l .h2,#content .outros-contents .cats-list-l .h3,#content .outros-contents .cats-list-l .h4,#content .outros-contents .cats-list-l h2,#content .outros-contents .cats-list-l h3,#content .outros-contents .cats-list-l h4,#content .top h1,#content .top h2,#sidebar .resumo .cats-list-l .title,#sidebar .right-c .block .cats-list-l h2,.art-share #content .outros-contents .cats-list-l .numbers,.art-share .cats-list-l .numbers,.cats-list-l #content.category .left-c .block.full h2,.cats-list-l #content .outros-contents .art-share .numbers,.cats-list-l #content .outros-contents .h2,.cats-list-l #content .outros-contents .h3,.cats-list-l #content .outros-contents .h4,.cats-list-l #content .outros-contents h2,.cats-list-l #content .outros-contents h3,.cats-list-l #content .outros-contents h4,.cats-list-l #sidebar .resumo .title,.cats-list-l #sidebar .right-c .block h2,.cats-list-l .art-share #content .outros-contents .numbers,.cats-list-l .art-share .numbers,.cats-list-l .cats-list-nol h2,.cats-list-l .cats-list-nol h3,.cats-list-l .cats-list-nol h4,.cats-list-l .h2,.cats-list-l .h3,.cats-list-l .h4,.cats-list-l h2,.cats-list-l h3,.cats-list-l h4,.cats-list-nol .cats-list-l h2,.cats-list-nol .cats-list-l h3,.cats-list-nol .cats-list-l h4,.line-b{margin-top:0;padding-top:0;padding-bottom:10px;border-bottom:1px solid #dbd9d5}#content.category .left-c .block,.cats-list-l ul,.line-box{border:1px solid #eee;padding:15px;margin:0;vertical-align:top;position:relative}.b-small{font-size:80%;text-align:center}.desc{font-size:80%;color:#7b756e}#content .outros-contents,.cats-list,.cats-list-l,.cats-list-nol{margin:15px 0;vertical-align:top}#content .half.outros-contents,.cats-list.half,.half.cats-list-l,.half.cats-list-nol{width:50%;display:inline-block}#content .half.outros-contents:nth-of-type(2n),.cats-list.half:nth-of-type(2n),.half.cats-list-l:nth-of-type(2n),.half.cats-list-nol:nth-of-type(2n){padding-right:15px}#content .half.outros-contents:nth-of-type(odd),.cats-list.half:nth-of-type(odd),.half.cats-list-l:nth-of-type(odd),.half.cats-list-nol:nth-of-type(odd){padding-left:15px}#content .outros-contents ul.col-2 li:not(:first-child),.cats-list-l ul.col-2 li:not(:first-child),.cats-list-nol ul.col-2 li:not(:first-child),.cats-list ul.col-2 li:not(:first-child){width:48%;display:inline-block}#content .outros-contents ul.col-2 li:not(:first-child):nth-child(2n),.cats-list-l ul.col-2 li:not(:first-child):nth-child(2n),.cats-list-nol ul.col-2 li:not(:first-child):nth-child(2n),.cats-list ul.col-2 li:not(:first-child):nth-child(2n){margin-right:10px}#content .outros-contents ul.col-2 li:not(:first-child):nth-child(odd),.cats-list-l ul.col-2 li:not(:first-child):nth-child(odd),.cats-list-nol ul.col-2 li:not(:first-child):nth-child(odd),.cats-list ul.col-2 li:not(:first-child):nth-child(odd){margin-left:10px}#content .outros-contents ul.col-2 li:not(:first-child):nth-last-child(2),.cats-list-l ul.col-2 li:not(:first-child):nth-last-child(2),.cats-list-nol ul.col-2 li:not(:first-child):nth-last-child(2),.cats-list ul.col-2 li:not(:first-child):nth-last-child(2){border:0}#content.category .left-c .block.full .cats-list-l .cats-list-nol h2,#content.category .left-c .block.full .cats-list-l .cats-list h2,#content.category .left-c .block.full .cats-list-l .outros-contents h2,#content.category .left-c .block.full .cats-list-l h2,#content.category .left-c .block.full .cats-list-nol h2,#content.category .left-c .block.full .cats-list h2,#content.category .left-c .block.full .outros-contents h2,#content.category .outros-contents .left-c .block.full .cats-list-l h2,#content.category .outros-contents .left-c .block.full h2,#content .outros-contents #sidebar .resumo .cats-list-l .title,#content .outros-contents #sidebar .resumo .title,#content .outros-contents #sidebar .right-c .block .cats-list-l h2,#content .outros-contents #sidebar .right-c .block h2,#content .outros-contents .art-share .cats-list-l .cats-list-nol .numbers,#content .outros-contents .art-share .cats-list-l .cats-list .numbers,#content .outros-contents .art-share .cats-list-l .numbers,#content .outros-contents .art-share .cats-list-nol .cats-list-l .numbers,#content .outros-contents .art-share .numbers,#content .outros-contents .cats-list-l #sidebar .resumo .title,#content .outros-contents .cats-list-l #sidebar .right-c .block h2,#content .outros-contents .cats-list-l .art-share .cats-list-nol .numbers,#content .outros-contents .cats-list-l .art-share .numbers,#content .outros-contents .cats-list-l .cats-list-nol .art-share .numbers,#content .outros-contents .cats-list-l .cats-list-nol .h2,#content .outros-contents .cats-list-l .cats-list-nol .h3,#content .outros-contents .cats-list-l .cats-list-nol .h4,#content .outros-contents .cats-list-l .cats-list-nol h2,#content .outros-contents .cats-list-l .cats-list-nol h3,#content .outros-contents .cats-list-l .cats-list-nol h4,#content .outros-contents .cats-list-l .cats-list .h2,#content .outros-contents .cats-list-l .cats-list .h3,#content .outros-contents .cats-list-l .cats-list .h4,#content .outros-contents .cats-list-l .cats-list h2,#content .outros-contents .cats-list-l .cats-list h3,#content .outros-contents .cats-list-l .cats-list h4,#content .outros-contents .cats-list-l .h2,#content .outros-contents .cats-list-l .h3,#content .outros-contents .cats-list-l .h4,#content .outros-contents .cats-list-l h2,#content .outros-contents .cats-list-l h3,#content .outros-contents .cats-list-l h4,#content .outros-contents .cats-list-nol .art-share .cats-list-l .numbers,#content .outros-contents .cats-list-nol .cats-list-l .h2,#content .outros-contents .cats-list-nol .cats-list-l .h3,#content .outros-contents .cats-list-nol .cats-list-l h2,#content .outros-contents .cats-list-nol .cats-list-l h3,#content .outros-contents .cats-list-nol .cats-list-l h4,#content .outros-contents .h2,#content .outros-contents .h3,#content .outros-contents .h4,#content .outros-contents h2,#content .outros-contents h3,#content .outros-contents h4,#sidebar .resumo #content .outros-contents .title,#sidebar .resumo .cats-list-l #content .outros-contents .title,#sidebar .resumo .cats-list-l .cats-list-nol .title,#sidebar .resumo .cats-list-l .cats-list .title,#sidebar .resumo .cats-list-l .title,#sidebar .resumo .cats-list-nol .title,#sidebar .resumo .cats-list .title,#sidebar .right-c .block #content .outros-contents h2,#sidebar .right-c .block .cats-list-l #content .outros-contents h2,#sidebar .right-c .block .cats-list-l .cats-list-nol h2,#sidebar .right-c .block .cats-list-l .cats-list h2,#sidebar .right-c .block .cats-list-l h2,#sidebar .right-c .block .cats-list-nol h2,#sidebar .right-c .block .cats-list h2,.art-share #content .outros-contents .cats-list-l .cats-list-nol .numbers,.art-share #content .outros-contents .cats-list-l .cats-list .numbers,.art-share #content .outros-contents .cats-list-l .numbers,.art-share #content .outros-contents .numbers,.art-share .cats-list-l #content .outros-contents .numbers,.art-share .cats-list-l .cats-list-nol .numbers,.art-share .cats-list-l .cats-list .numbers,.art-share .cats-list-l .numbers,.art-share .cats-list-nol .cats-list-l #content .outros-contents .numbers,.art-share .cats-list-nol .cats-list-l .cats-list .numbers,.art-share .cats-list-nol .cats-list-l .numbers,.art-share .cats-list-nol .numbers,.art-share .cats-list .numbers,.cats-list #content.category .left-c .block.full .cats-list-l h2,.cats-list #content.category .left-c .block.full h2,.cats-list #content .outros-contents .art-share .cats-list-l .numbers,.cats-list #content .outros-contents .cats-list-l .h2,.cats-list #content .outros-contents .cats-list-l .h3,.cats-list #content .outros-contents .cats-list-l .h4,.cats-list #content .outros-contents .cats-list-l h2,.cats-list #content .outros-contents .cats-list-l h3,.cats-list #content .outros-contents .cats-list-l h4,.cats-list #sidebar .resumo .cats-list-l .title,.cats-list #sidebar .resumo .title,.cats-list #sidebar .right-c .block .cats-list-l h2,.cats-list #sidebar .right-c .block h2,.cats-list-l #content.category .left-c .block.full .cats-list-nol h2,.cats-list-l #content.category .left-c .block.full .cats-list h2,.cats-list-l #content.category .left-c .block.full .outros-contents h2,.cats-list-l #content.category .left-c .block.full h2,.cats-list-l #content.category .outros-contents .left-c .block.full h2,.cats-list-l #content .outros-contents .art-share .cats-list-nol .numbers,.cats-list-l #content .outros-contents .art-share .cats-list .numbers,.cats-list-l #content .outros-contents .art-share .numbers,.cats-list-l #content .outros-contents .cats-list-nol .h2,.cats-list-l #content .outros-contents .cats-list-nol .h3,.cats-list-l #content .outros-contents .cats-list-nol .h4,.cats-list-l #content .outros-contents .cats-list-nol h2,.cats-list-l #content .outros-contents .cats-list-nol h3,.cats-list-l #content .outros-contents .cats-list-nol h4,.cats-list-l #content .outros-contents .cats-list .h2,.cats-list-l #content .outros-contents .cats-list .h3,.cats-list-l #content .outros-contents .cats-list .h4,.cats-list-l #content .outros-contents .cats-list h2,.cats-list-l #content .outros-contents .cats-list h3,.cats-list-l #content .outros-contents .cats-list h4,.cats-list-l #content .outros-contents .h2,.cats-list-l #content .outros-contents .h3,.cats-list-l #content .outros-contents .h4,.cats-list-l #content .outros-contents h2,.cats-list-l #content .outros-contents h3,.cats-list-l #content .outros-contents h4,.cats-list-l #sidebar .resumo #content .outros-contents .title,.cats-list-l #sidebar .resumo .cats-list-nol .title,.cats-list-l #sidebar .resumo .cats-list .title,.cats-list-l #sidebar .resumo .title,.cats-list-l #sidebar .right-c .block #content .outros-contents h2,.cats-list-l #sidebar .right-c .block .cats-list-nol h2,.cats-list-l #sidebar .right-c .block .cats-list h2,.cats-list-l #sidebar .right-c .block h2,.cats-list-l .art-share #content .outros-contents .cats-list-nol .numbers,.cats-list-l .art-share #content .outros-contents .cats-list .numbers,.cats-list-l .art-share #content .outros-contents .numbers,.cats-list-l .art-share .cats-list-nol #content .outros-contents .numbers,.cats-list-l .art-share .cats-list-nol .cats-list .numbers,.cats-list-l .art-share .cats-list-nol .numbers,.cats-list-l .art-share .cats-list .numbers,.cats-list-l .art-share .numbers,.cats-list-l .cats-list-nol #content .outros-contents .h2,.cats-list-l .cats-list-nol #content .outros-contents .h3,.cats-list-l .cats-list-nol #content .outros-contents h2,.cats-list-l .cats-list-nol #content .outros-contents h3,.cats-list-l .cats-list-nol #content .outros-contents h4,.cats-list-l .cats-list-nol .art-share #content .outros-contents .numbers,.cats-list-l .cats-list-nol .art-share .cats-list .numbers,.cats-list-l .cats-list-nol .art-share .numbers,.cats-list-l .cats-list-nol .cats-list .h2,.cats-list-l .cats-list-nol .cats-list .h3,.cats-list-l .cats-list-nol .cats-list h2,.cats-list-l .cats-list-nol .cats-list h3,.cats-list-l .cats-list-nol .cats-list h4,.cats-list-l .cats-list-nol .h2,.cats-list-l .cats-list-nol .h3,.cats-list-l .cats-list-nol .h4,.cats-list-l .cats-list-nol h2,.cats-list-l .cats-list-nol h3,.cats-list-l .cats-list-nol h4,.cats-list-l .cats-list .h2,.cats-list-l .cats-list .h3,.cats-list-l .cats-list .h4,.cats-list-l .cats-list h2,.cats-list-l .cats-list h3,.cats-list-l .cats-list h4,.cats-list-l .h2,.cats-list-l .h3,.cats-list-l .h4,.cats-list-l h2,.cats-list-l h3,.cats-list-l h4,.cats-list-nol #content.category .left-c .block.full .cats-list-l h2,.cats-list-nol #content.category .left-c .block.full h2,.cats-list-nol #content .outros-contents .art-share .cats-list-l .numbers,.cats-list-nol #content .outros-contents .cats-list-l .h2,.cats-list-nol #content .outros-contents .cats-list-l .h3,.cats-list-nol #content .outros-contents .cats-list-l .h4,.cats-list-nol #content .outros-contents .cats-list-l h2,.cats-list-nol #content .outros-contents .cats-list-l h3,.cats-list-nol #content .outros-contents .cats-list-l h4,.cats-list-nol #sidebar .resumo .cats-list-l .title,.cats-list-nol #sidebar .resumo .title,.cats-list-nol #sidebar .right-c .block .cats-list-l h2,.cats-list-nol #sidebar .right-c .block h2,.cats-list-nol .art-share #content .outros-contents .cats-list-l .numbers,.cats-list-nol .art-share .cats-list-l #content .outros-contents .numbers,.cats-list-nol .art-share .cats-list-l .cats-list .numbers,.cats-list-nol .art-share .cats-list-l .numbers,.cats-list-nol .art-share .numbers,.cats-list-nol .cats-list-l #content.category .left-c .block.full h2,.cats-list-nol .cats-list-l #content .outros-contents .art-share .numbers,.cats-list-nol .cats-list-l #content .outros-contents .h2,.cats-list-nol .cats-list-l #content .outros-contents .h3,.cats-list-nol .cats-list-l #content .outros-contents .h4,.cats-list-nol .cats-list-l #content .outros-contents h2,.cats-list-nol .cats-list-l #content .outros-contents h3,.cats-list-nol .cats-list-l #content .outros-contents h4,.cats-list-nol .cats-list-l #sidebar .resumo .title,.cats-list-nol .cats-list-l #sidebar .right-c .block h2,.cats-list-nol .cats-list-l .art-share #content .outros-contents .numbers,.cats-list-nol .cats-list-l .art-share .numbers,.cats-list-nol .cats-list-l .cats-list .h2,.cats-list-nol .cats-list-l .cats-list .h3,.cats-list-nol .cats-list-l .cats-list h2,.cats-list-nol .cats-list-l .cats-list h3,.cats-list-nol .cats-list-l .cats-list h4,.cats-list-nol .cats-list-l .h2,.cats-list-nol .cats-list-l .h3,.cats-list-nol .cats-list-l .h4,.cats-list-nol .cats-list-l h2,.cats-list-nol .cats-list-l h3,.cats-list-nol .cats-list-l h4,.cats-list-nol .cats-list h2,.cats-list-nol .cats-list h3,.cats-list-nol .cats-list h4,.cats-list-nol .h2,.cats-list-nol .h3,.cats-list-nol .h4,.cats-list-nol h2,.cats-list-nol h3,.cats-list-nol h4,.cats-list .art-share #content .outros-contents .cats-list-l .numbers,.cats-list .art-share .cats-list-l .numbers,.cats-list .art-share .cats-list-nol .cats-list-l .numbers,.cats-list .art-share .numbers,.cats-list .cats-list-l #content.category .left-c .block.full h2,.cats-list .cats-list-l #content .outros-contents .art-share .numbers,.cats-list .cats-list-l #content .outros-contents .h2,.cats-list .cats-list-l #content .outros-contents .h3,.cats-list .cats-list-l #content .outros-contents .h4,.cats-list .cats-list-l #content .outros-contents h2,.cats-list .cats-list-l #content .outros-contents h3,.cats-list .cats-list-l #content .outros-contents h4,.cats-list .cats-list-l #sidebar .resumo .title,.cats-list .cats-list-l #sidebar .right-c .block h2,.cats-list .cats-list-l .art-share #content .outros-contents .numbers,.cats-list .cats-list-l .art-share .cats-list-nol .numbers,.cats-list .cats-list-l .art-share .numbers,.cats-list .cats-list-l .cats-list-nol .art-share .numbers,.cats-list .cats-list-l .cats-list-nol .h2,.cats-list .cats-list-l .cats-list-nol .h3,.cats-list .cats-list-l .cats-list-nol h2,.cats-list .cats-list-l .cats-list-nol h3,.cats-list .cats-list-l .cats-list-nol h4,.cats-list .cats-list-l .h2,.cats-list .cats-list-l .h3,.cats-list .cats-list-l .h4,.cats-list .cats-list-l h2,.cats-list .cats-list-l h3,.cats-list .cats-list-l h4,.cats-list .cats-list-nol .art-share .cats-list-l .numbers,.cats-list .cats-list-nol .cats-list-l .h2,.cats-list .cats-list-nol .cats-list-l .h3,.cats-list .cats-list-nol .cats-list-l h2,.cats-list .cats-list-nol .cats-list-l h3,.cats-list .cats-list-nol .cats-list-l h4,.cats-list .cats-list-nol h2,.cats-list .cats-list-nol h3,.cats-list .cats-list-nol h4,.cats-list .h2,.cats-list .h3,.cats-list .h4,.cats-list h2,.cats-list h3,.cats-list h4{margin-top:0;margin-bottom:.5em}#content .outros-contents li,.cats-list-l li,.cats-list-nol li,.cats-list li{list-style:none}#content .outros-contents li:not(:first-child):not(.mais),.cats-list-l li:not(:first-child):not(.mais),.cats-list-nol li:not(:first-child):not(.mais),.cats-list li:not(:first-child):not(.mais){padding:8px 0;border-bottom:1px solid #eee}#content .outros-contents li:not(:first-child):not(.mais):last-child,.cats-list-l li:not(:first-child):not(.mais):last-child,.cats-list-nol li:not(:first-child):not(.mais):last-child,.cats-list li:not(:first-child):not(.mais):last-child{border:0}#content .outros-contents .mais,.cats-list-l .mais,.cats-list-nol .mais,.cats-list .mais{position:absolute;right:15px;top:16px;background:#337ab7;border-radius:2px;line-height:1;padding:5px;font-size:.75rem}#content .outros-contents .mais a,.cats-list-l .mais a,.cats-list-nol .mais a,.cats-list .mais a{color:#fff}#content .outros-contents,.cats-list-nol{margin:0}#content .outros-contents ul,.cats-list-nol ul{padding:0}#content .outros-contents li:not(:first-child),.cats-list-nol li:not(:first-child){padding-left:5px!important}.cats-list-l.related-incontent{padding:0;border:0;box-shadow:none;border-radius:0;background:#fafafa}.cats-list-l.related-incontent ul{border-radius:4px}#content.category .left-c .block.half-1 .cats-list-l h3,#content .cats-list-l h1.titFrase,.cats-list-l #content.category .left-c .block.half-1 h3,.cats-list-l #content h1.titFrase,.cats-list-l .h5{padding-top:0}body{padding-top:62px}.top+.phrases-list{margin-top:20px}.phrases-list>div:not(.paginacao){margin-bottom:30px}.phrases-list>div:not(.paginacao):not(.gooad):not(.gooadx):not(.ad-unit):not(.gooad_bot):not(.dfp-mrec-bio):not(.nav-page):not(.related-incontent):not(.related-incontent--thumbs-wrapper):not(.sg-feedback__wrapper){border:1px solid #f5f5f5;box-shadow:0 1px 2px 0 rgba(0,0,0,.15);border-radius:2px;background:#fafafa;padding:10px 10px 0}.phrases-list>div.gooad{margin-bottom:20px;margin-top:-10px}.inline-thought-card p,.phrases-list>div p{padding:0;position:relative;word-wrap:break-word;z-index:0}.inline-thought-card p.img,.phrases-list>div p.img{margin:-10px -12px 0}.inline-thought-card p.img img,.phrases-list>div p.img img{width:100%}.inline-thought-card p.fr,.inline-thought-card p.fr0,.phrases-list>div p.fr,.phrases-list>div p.fr0{line-height:1.3;padding:0 0 0 25px}.inline-thought-card p.fr0:before,.inline-thought-card p.fr:before,.phrases-list>div p.fr0:before,.phrases-list>div p.fr:before{content:"";width:18px;height:18px;background:url(/img/quote.png) 50% no-repeat;background-size:100%;position:absolute;left:-2px;top:2px;pointer-events:none;-webkit-user-select:none}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.inline-thought-card p.fr0:before,.inline-thought-card p.fr:before,.phrases-list>div p.fr0:before,.phrases-list>div p.fr:before{background-image:url(/img/quote@2x.png)}}.inline-thought-card p.fr,.phrases-list>div p.fr{font-size:1.125rem}.inline-thought-card p.fr0,.inline-thought-card p.fr.fr0,.phrases-list>div p.fr0,.phrases-list>div p.fr.fr0{font-size:1rem}.inline-thought-card .autor,.phrases-list>div .autor{font-size:.75rem;display:block;margin-top:10px;margin-bottom:15px;padding-left:25px}.inline-thought-card .autor a,.phrases-list>div .autor a{text-decoration:none}.inline-thought-card .autor a:hover,.phrases-list>div .autor a:hover{text-decoration:underline}.inline-thought-card .autor.half,.phrases-list>div .autor.half{display:inline-block;width:50%}.inline-thought-card .insert-onlist,.phrases-list>div .insert-onlist{display:inline-block;width:50%;font-size:.625rem;color:#767069;text-align:right}.inline-thought-card .insert-onlist a,.phrases-list>div .insert-onlist a{color:inherit;text-decoration:none;font-weight:700}.inline-thought-card .insert-onlist a:hover,.phrases-list>div .insert-onlist a:hover{text-decoration:underline}.phrases-list>div.wimage{padding:0!important;display:table}.phrases-list>div.wimage:after,.phrases-list>div.wimage:before{content:" ";display:table}.phrases-list>div.wimage:after{clear:both}.phrases-list>div.wimage>div{width:50%;display:table-cell;vertical-align:top}.phrases-list>div.wimage>div p.fr,.phrases-list>div.wimage>div p.fr0{padding:0}.phrases-list>div.wimage>div p.fr0:before,.phrases-list>div.wimage>div p.fr:before{display:none}.phrases-list>div.wimage>div p.fr-small{font-size:14px}.phrases-list>div.wimage>div .autor{margin-bottom:0;padding:0}.phrases-list>div.wimage .content{position:relative;padding:10px 15px 45px}@media (min-width:769px){.phrases-list>div.wimage .iconbar{position:absolute;margin:0;bottom:0;left:0;right:0;padding-left:15px}}.phrase_image{text-align:center;background:#fafafa;border:1px solid #f5f5f5;box-shadow:0 1px 2px 0 rgba(0,0,0,.15);border-radius:2px;padding:15px 20px 0;margin-bottom:10px}.phrase_image .iconbar{margin-top:15px;padding:10px 20px;margin-left:-20px;margin-right:-20px}.phrase_image+.report{font-size:.625rem;padding-right:10px}.phrase_image+.report:after,.phrase_image+.report:before{content:" ";display:table}.phrase_image+.report:after{clear:both}.phrase_image+.report a{float:right;color:#403e3b}.phrase_image+.report span{color:#efc90d;font-size:1.6em;margin-left:5px;vertical-align:sub}.phrase_image .img+.pensaFrase{margin:20px 0}.phrase_image .img+.pensaFrase p.fr,.phrase_image .img+.pensaFrase p.fr0{font-size:1rem!important}.pensaFrase{text-align:left}.pensaFrase .autor{font-size:.75rem;margin:10px 0 15px}.pensaFrase .iconbar{margin-bottom:20px}.pensaFrase p{word-wrap:break-word}.pensaFrase p.fr,.pensaFrase p.fr0{padding:0}.pensaFrase p.fr{font-size:1.6rem}.pensaFrase p.fr0{font-size:1rem}.pensaNota{color:#737373;font-size:.75rem;padding:0;margin-top:10px}.pensaReport{width:100%;display:block;font-size:.625rem;text-align:right;margin-bottom:10px}.pensaReport a{color:#403e3b}.pensaReport span{color:#efc90d;font-size:1.6em;margin-left:5px;vertical-align:sub;line-height:15px;float:right}.pensaInsert{display:inline-block;width:50%;font-size:.75rem;color:#7b756e}.pensaInsert a{float:none!important}.pensaInsert+.pensaReport{width:50%;display:inline-block}#sidebar{margin-top:30px}#sidebar>*{width:100%;float:left}#sidebar>:after,#sidebar>:before{content:" ";display:table}#sidebar>:after{clear:both}#sidebar .addQuote{display:block;line-height:44px;color:#fff;background:#33d88e;border-radius:4px;font-weight:700;margin-bottom:15px;text-shadow:0 1px 0 rgba(0,0,0,.2);-webkit-font-smoothing:antialiased}#sidebar .addQuote:hover{background:#00ce71;text-decoration:none}#sidebar .addQuote span{width:44px;height:44px;background:#00ce71;text-align:center;margin-right:10px;font-size:1.3rem;display:inline-block;float:left;border-top-left-radius:4px;border-bottom-left-radius:4px}#content #sidebar .cats-list-l#home-list h1.titFrase,#content #sidebar .cats-list-l.colored h1.titFrase,#content.category .left-c .block.half-1 #sidebar .cats-list-l#home-list h3,#content.category .left-c .block.half-1 #sidebar .cats-list-l.colored h3,#sidebar .cats-list-l#home-list #content.category .left-c .block.half-1 h3,#sidebar .cats-list-l#home-list #content h1.titFrase,#sidebar .cats-list-l#home-list .h5,#sidebar .cats-list-l.colored #content.category .left-c .block.half-1 h3,#sidebar .cats-list-l.colored #content h1.titFrase,#sidebar .cats-list-l.colored .h5{color:#767069}#sidebar .cats-list-l#home-list ul,#sidebar .cats-list-l.colored ul{background:#fafafa;border:1px solid #f5f5f5;border-radius:4px}#sidebar .cats-list-l#home-list{margin-bottom:30px;padding-right:0}#sidebar .cats-list-l#home-list ul li{padding:10px 0}#sidebar .cats-list-l#home-list ul li:not(:last-child){border-bottom:1px solid rgba(0,0,0,.05)}#sidebar .resumo .title{margin:10px 0}#sidebar .resumo img{width:40px;height:40px;border-radius:4px;float:left;margin-right:10px;margin-bottom:5px}#sidebar .resumo .bio,#sidebar .resumo .text{margin:0;padding:0 20px .5em 0;display:block;font-size:.75rem}#sidebar .resumo .bio{text-decoration:underline}#content{margin-top:30px}#content .top{position:relative}#content .top:after,#content .top:before{content:" ";display:table}#content .top:after{clear:both}#content .top h1,#content .top h2{margin-bottom:10px;float:left;width:100%;padding-right:145px}#content .top .total{color:#7b756e;float:left;font-size:.75rem;line-height:1}#content .top .r-info{position:absolute;right:0;top:15px;text-align:right}#content .top.autor{padding-top:20px;padding-bottom:10px;border-bottom:1px solid #eee;display:table;width:100%}#content .top.autor .img+.details{padding-left:10px;padding-top:10px}#content .top.autor .details,#content .top.autor .img{display:table-cell;vertical-align:top}#content .top.autor .img{width:120px;height:120px}#content .top.autor .img img{border-radius:4px;box-shadow:0 1px 2px 0 rgba(0,0,0,.2);background:#fff}#content .top.autor .details{position:relative}#content .top.autor h1{border:0;margin:0;font-size:24px;line-height:1.2;padding:0 100px 0 0}#content .top.autor .tagline{color:#7b756e}#content .top.autor .links{margin-top:15px;float:left;clear:both;width:100%}#content .top.autor .links.m{display:none}#content .top.autor .links a{color:#403e3b;display:block;float:left;padding:8px 10px;border:1px solid #ddd;border-radius:3px;font-size:.875rem;background:#fff}#content .top.autor .links a:not(:last-child){margin-right:10px}#content .top.autor .links a:active,#content .top.autor .links a:focus,#content .top.autor .links a:hover{background:#fafafa}#content .top.autor .fb-share{position:absolute;right:0;top:10px}#content .top.autor+.autorTotal{padding:5px 0 20px;height:auto;line-height:1.2}#content.category .left-c{margin:0 -15px 20px}#content.category .left-c .block{margin:15px}#content.category .left-c .block a{padding:6px 0}#content.category .left-c .block.full{background:#fdfcfb}#content.category .left-c .block.full:after,#content.category .left-c .block.full:before{content:" ";display:table}#content.category .left-c .block.full:after{clear:both}#content.category .left-c .block.full h2{margin:0;padding-top:0}#content.category .left-c .block.full a{display:inline-block;width:31%;vertical-align:top}#content.category .left-c .block.full a:nth-of-type(n+4){border-top:1px solid #eee}#content.category .left-c .block.full a:first-of-type,#content.category .left-c .block.full a:nth-of-type(4),#content.category .left-c .block.full a:nth-of-type(7),#content.category .left-c .block.full a:nth-of-type(10){margin:0 10px 0 0}#content.category .left-c .block.full a:nth-of-type(2),#content.category .left-c .block.full a:nth-of-type(5),#content.category .left-c .block.full a:nth-of-type(8),#content.category .left-c .block.full a:nth-of-type(11){margin:0 10px}#content.category .left-c .block.full a:nth-of-type(3),#content.category .left-c .block.full a:nth-of-type(6),#content.category .left-c .block.full a:nth-of-type(9),#content.category .left-c .block.full a:nth-of-type(12){margin:0 0 0 10px}#content.category .left-c .block.half-1{width:45.5%;display:inline-block}#content.category .left-c .block.half-1 h3{margin:0;padding-top:0}#content.category .left-c .block.half-1 a{display:block}#content.category .left-c .block.half-1 a:not(:first-of-type){border-top:1px solid #eee}#content .outros-contents ul{width:50%}#content .alfa{margin:10px 0 30px}#content .alfa a,#content .alfa span{display:inline-block;width:30px;height:30px;line-height:30px;background-color:rgba(8,82,202,.1);border-radius:2px;text-align:center;border:1px solid #eee;margin:0 5px 5px 0}#content .alfa a:hover{text-decoration:none}#content .alfa a:hover,#content .alfa span{background-color:#e1e1e1}#content .autor-lista>p{width:50%;display:inline-block}#content .texto h2{margin:0}#content .resumo{margin:20px 0}.autorTotal{color:#bfbfbf;font-size:.75rem;line-height:1.5;height:40px}#sidebar .right-c .block{margin:15px 0;float:left;width:100%}#sidebar .right-c .block h2{margin:0}#sidebar .right-c .block a{display:block;padding:6px 10px}.form-wrapper{border:0;display:block;width:60%;padding:0 0 20px;margin:0 auto 20px}.form-wrapper-login{border-bottom:1px solid #eee;margin-top:20px}.delForm .delete-link{color:#c00;display:inline-block;padding:0;width:100%;text-align:center;font-size:.875rem;border-radius:3px}.delForm .delete-link:hover{text-decoration:underline}.delForm .delete-confirmation{display:none;padding:10px 20px;margin-bottom:20px;border:1px solid #eed3d7;background-color:#f2dede;color:#b94a48;border-radius:4px;font-size:.875rem;text-align:center}.delForm .delete-confirmation textarea{width:100%;max-width:100%;resize:none}.logForm input:not([type=checkbox]),.logForm label{display:inline-block;margin:10px 0;float:left}.logForm label{width:30%}.logForm input:not([type=checkbox]){width:70%;margin:5px 0 10px}.logForm #btform{background:#00ce71;color:#fff;padding:0 20px;height:40px;line-height:40px;width:100%}.logForm #btform:hover{background:#00b563}.logForm .check{float:left;margin:10px 0}.logForm .check:after,.logForm .check:before{content:" ";display:table}.logForm .check:after{clear:both}.logForm .check label{color:#7b756e;display:block;text-align:left;width:100%;margin:0;font-size:14px;padding:0}.logForm .check input{width:15px;height:15px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-3px;*overflow:hidden;display:inline-block}.g-recaptcha{float:left;height:78px;text-align:center;margin:10px 0;width:100%}.g-recaptcha:after,.g-recaptcha:before{content:" ";display:table}.g-recaptcha:after{clear:both}.g-recaptcha.align-left{float:none;text-align:left}.g-recaptcha>div{display:inline-block}#temp-note{margin:30px 0 20px}#temp-note>div{border-radius:4px;padding:15px}#temp-note .error{border:1px solid #eed3d7;background:#f2dede;color:#b94a48}#temp-note .note{background:#dff0d8}#temp-note .notice{background:#d8e6f0}#temp-note .flash-add-pns{text-align:center}#temp-note .flash-add-pns a{display:inline-block;text-decoration:none;color:#fff;background:#00ce71;border-radius:4px;padding:10px 20px;line-height:1;font-weight:700;margin:15px 0 10px}#temp-note .flash-add-pns a .icon{margin-right:10px;font-size:20px;height:20px;vertical-align:middle;display:inline-block;min-width:1em}#recomendacao{padding:15px;margin-bottom:30px;background-color:#dff0d8}#recomendacao ul{margin-bottom:0}.dates{padding:0}.dates li{list-style:none;line-height:1.6}.dates li.date{font-weight:700;margin-top:20px;font-size:1.125rem}.form{margin-bottom:30px}.form.form--edit{padding:12px 12px 0;box-shadow:none;background-color:#fff;border:none;border-top:1px solid #dbd9d5;border-radius:0;margin-bottom:0}.form .form-group{margin-bottom:15px}.form .form-group:after,.form .form-group:before{content:" ";display:table}.form .form-group:after{clear:both}.form .form-group label{padding-top:7px;margin-bottom:0;text-align:right}.form .form-group.check label{display:block;text-align:left;width:100%;margin:0;font-size:14px;padding:0}.form .form-group.check input{width:15px;height:15px;padding:0;margin:0 5px 0 0;vertical-align:bottom;position:relative;top:-2px;*overflow:hidden;display:inline-block}.form .form-group input,.form .form-group textarea{display:block;width:100%}.form .form-group#citacao .wrapper:after{position:absolute;content:"\201D";right:-40px;top:0;font-size:6em;line-height:1;color:#efe6d7}.form #submit{border-color:rgba(0,0,0,.05)}.form #submit,.form .btn-submit{background:#00ce71;color:#fff;font-weight:700}.form .btn-submit{width:100%;border:1px solid rgba(0,0,0,.05);padding:0 10px;font-size:1em;-webkit-appearance:none;-moz-appearance:none;appearance:none}.forgot-password a{font-size:.875rem;color:#7b756e;text-decoration:underline}.btn-facebook,.forgot-password a:hover{text-decoration:none}.btn-facebook{display:block;text-align:center;color:#fff;background:#4c70bb;border-radius:4px;height:48px;line-height:48px;width:100%;padding:0 10px;border:0;font-weight:700}.btn-facebook .icon{margin-right:15px;font-size:1.7em;vertical-align:middle;display:inline-block;min-width:1em}.form-separator{border-top:1px solid #eee;height:1px;margin:40px 0}.form-separator span{font-size:.875rem;background:#fff;color:#bfbfbf;display:block;margin:-11px auto;text-align:center;width:30px}#article,.article-body{margin:10px 0 30px}#article h2,.article-body h2{font-weight:600;padding:0;margin-bottom:0}#article h2 a,#article h3 a,#article h4 a,.article-body h2 a,.article-body h3 a,.article-body h4 a{color:#0852ca}#article h2 a:focus,#article h2 a:hover,#article h3 a:focus,#article h3 a:hover,#article h4 a:focus,#article h4 a:hover,.article-body h2 a:focus,.article-body h2 a:hover,.article-body h3 a:focus,.article-body h3 a:hover,.article-body h4 a:focus,.article-body h4 a:hover{color:#063e99;text-decoration:underline}@media (max-width:1045px){#article h2+.content-img,#article h3+.content-img,#article h4+.content-img,.article-body h2+.content-img,.article-body h3+.content-img,.article-body h4+.content-img{margin-top:40px}}#article img,.article-body img{margin:.5em 0;max-width:100%}#article blockquote,.article-body blockquote{background:#fafafa url(/img/quote.png) 15px 15px no-repeat;padding:15px 15px 20px 50px;margin:1em 0 2em;border:1px solid #f5f5f5;box-shadow:0 1px 2px 0 rgba(0,0,0,.15);border-radius:2px;font-size:18px}#article blockquote.fr0,.article-body blockquote.fr0{font-size:17px}#article blockquote p:first-of-type,.article-body blockquote p:first-of-type{padding-top:0}#article blockquote p:last-of-type,.article-body blockquote p:last-of-type{padding-bottom:0}#article blockquote .autor,.article-body blockquote .autor{padding:0;font-size:12px;font-family:Helvetica,Arial,sans-serif;font-style:normal;color:#7b756e;margin:10px 20px 5px 0}#article blockquote .poem,.article-body blockquote .poem{padding:2px 0}@media (max-width:1045px){#article blockquote+.content-img,.article-body blockquote+.content-img{margin-top:50px}}#article figure.image figcaption,.article-body figure.image figcaption{display:block;font-family:Georgia,Times,serif;font-size:14px;margin-top:2px;position:relative}#article figure.image figcaption:before,.article-body figure.image figcaption:before{content:"";position:absolute;bottom:-2px;left:0;width:30px;height:2px;background-color:#bfbfbf}#article p.caption,.article-body p.caption{margin-top:-5px;padding:0 0 15px;font-size:12px;color:#7b756e;font-weight:700;-webkit-font-smoothing:antialiased}#article p.caption+.content-img,.article-body p.caption+.content-img{margin-top:0;margin-bottom:10px;display:inline-block}#article p.caption+.content-img img,.article-body p.caption+.content-img img{margin:0}#article p.caption+.content-img .sg-social,.article-body p.caption+.content-img .sg-social{display:none}.art-share{list-style:none;padding:0;margin:0 -5px}.art-share:after,.art-share:before{content:" ";display:table}.art-share:after{clear:both}.art-share>li{display:inline-block;vertical-align:top;margin:0 5px}.art-share .total-shares{text-transform:uppercase;display:inline-block;text-align:center;padding:0 5px 0 0;line-height:1;min-width:40px;height:40px;position:relative}.art-share .numbers{font-weight:400;color:#403e3b;padding:0;height:25px}.art-share .text-shares{font-size:.65em;font-weight:700;color:#7b756e}.art-share a{color:#fff;min-width:40px;line-height:40px;display:block;white-space:nowrap;text-decoration:none;text-align:center;border-radius:3px}.art-share .fb{background:#4c70bb;font-size:1.1em}.art-share .fb:hover{background:#3d579f}.art-share .twitter{background:#00abf0;font-size:1.4em}.art-share .twitter:hover{background:#008ec7}.art-share .pin{background:#e33538;font-size:1.2em}.art-share .pin:hover{background:#d21d20}.art-share .whatsapp{background:#5cbe4a;font-size:1.2em}.art-share .whatsapp:hover{background:#4ba43b}.top.article{margin-bottom:20px}.content-img,.content-img img{position:relative}.content-img img{z-index:1;max-height:500px;width:auto}.social-article-wrapper{padding:0;margin:20px 0}.social-article-wrapper .social-article{float:left;margin:10px 0;display:inline-block;width:100%}.social-article-wrapper .social-article a{color:#403e3b;font-weight:700;font-size:90%;display:inline-block;width:100%}.social-article-wrapper .social-article a img{float:left;width:120px;display:inline-block;margin-right:10px}.social-article-wrapper .social-article a span{display:block;padding:0 0 0 130px}.social-article--card{border:1px solid #f5f5f5;position:relative;width:100%;box-shadow:0 1px 2px 0 rgba(0,0,0,.15);border-radius:2px;background:#fafafa;padding:0;color:#333;display:flex;align-items:center;min-height:80px;font-size:18px;text-decoration:underline;margin-bottom:15px}.social-article--card-img{position:absolute;display:block;overflow:hidden;width:120px;min-height:80px;border-radius:4px 0 0 4px;background:#000;top:-1px;height:calc(100% + 2px)}.social-article--card-img img{position:absolute;display:block;bottom:auto;margin:0;height:auto;width:auto;min-height:101%;min-width:101%;max-width:none;transform:translateX(-50%) translateY(-50%);left:50%;top:50%;max-height:100%}.social-article--card-title{padding:5px 12px 5px 130px}@media (min-width:769px){.social-article--card{margin-bottom:30px}.social-article--card,.social-article--card *{transition:all .2s ease-in-out}.social-article--card:hover{background:#f5f5f5;box-shadow:0 2px 5px 0 rgba(0,0,0,.15);color:#333;text-decoration:none}.social-article--card:hover img{opacity:.85;min-height:105%;min-width:105%}}.total-shares-mobile{color:#767069;position:relative;float:left;margin-left:10px}.total-shares-mobile span{display:none}.total-shares{color:#767069;line-height:16px}.thought-card .image-card-link{display:block;margin:0 0 15px}.thought-card .image-card-link img{width:630px;height:auto}.related-phrase .content-img img{margin-bottom:0}.related-phrase blockquote{margin-top:0}#overlay,.page-nav,.page-nav-end{display:none}.art-relac{margin:30px 0 0}.art-relac .title{letter-spacing:.02em;font-size:1.2em;padding:5px 0 0;border-top:2px solid #dfdfdf}.art-relac .articles{text-align:center;margin:0 -10px -10px;overflow:hidden}.art-relac .articles>div{padding:0 10px 20px;display:block;vertical-align:top;float:left;width:33.33333%}.art-relac .articles>div:nth-child(3n+4){clear:left}@media (max-width:768px){.art-relac .articles>div{width:50%;clear:none!important}.art-relac .articles>div:nth-child(odd){clear:left!important}}.art-relac .articles>div a{color:#403e3b;font-weight:700;display:block}.art-relac .articles>div img{width:100%;box-shadow:0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.2);border-radius:3px}.art-relac .articles>div span{display:block;padding-top:.3em;text-align:left}.art-relac .showmore{text-align:center;position:relative;height:45px;margin-bottom:30px;border-top:1px solid #dbd9d5;padding-top:10px}.art-relac .showmore .mais{position:absolute;right:15px;top:16px;background:#337ab7;border-radius:2px;line-height:1;font-size:.75rem;font-size:.8em;display:inline-block;color:#fff;position:inherit;right:0;top:0;padding:10px}.art-relac .showmore .mais a{color:#fff}#header{position:fixed;z-index:99;top:0;right:0;left:0;width:100%;background:#fff;border-bottom:1px solid #e6e6e6;padding:16px 0;height:62px}#header.resize{height:48px;padding:8px 0}#logo,#user-menu-wrapper,.busca,.menu{display:inline-block;height:30px}.menu{margin:0;padding:0;line-height:30px}.menu li{list-style:none;display:inline-block;color:#7b756e}.menu li a{padding:0 10px;text-align:center;color:#7b756e;font-size:.875rem;font-weight:700}#menu{margin-left:30px}#menu li{list-style:none;display:inline-block}#menu-join,#user-menu-wrapper,.busca{float:right}.busca{margin-top:-3px}.busca button,.busca input{float:left}.busca input{width:210px;border-top-right-radius:0;border-bottom-right-radius:0;border-right:0}.busca button{border-top-left-radius:0;border-bottom-left-radius:0}#user-menu{margin-left:5px;min-width:40px}#user-menu .user{vertical-align:middle;padding:0 10px;position:relative;font-size:1.3rem}#user-menu .user>span{color:#00c46b;float:left}#user-menu .user ul{display:none}@media (max-width:1045px){#header{padding:8px 0 0;height:auto}#header:not(.home) .menu li:nth-child(6){display:none}#header .mob-wrapper{float:right}#header #user-menu-wrapper{float:none!important;position:relative!important;right:auto!important}#header #busca-btn,#header #user-menu-wrapper{vertical-align:top;margin-left:10px!important}#header.home #busca-btn{display:none!important}#header #busca-btn{width:30px;height:30px;line-height:30px;text-align:center;background:#00ce71;color:#fff;display:inline-block!important;border-radius:2px}#header .busca{display:none}#header #user-menu{margin:0}#header #user-menu.notlogged .user{display:none}#header #user-menu.notlogged #entrar-mob a{display:block;font-size:12px!important;color:#7b756e!important;font-weight:400!important;border:1px solid #bfbfbf;border-radius:30px;height:30px;padding:0 10px}#header #user-menu.notlogged #entrar-mob span{vertical-align:middle;margin-right:8px;float:left}#header #user-menu .user{border:1px solid #bfbfbf;height:30px;line-height:26px;border-radius:30px;padding:0 17px 0 10px}#header #user-menu .user.dropped{background:#7b756e;border-color:#7b756e}#header #user-menu .user.dropped:after,#header #user-menu .user.dropped>span{color:#fff!important}#header #user-menu .user:after,#header #user-menu .user>span{color:#7b756e!important}#header #user-menu .user:after{right:7px;font-size:.3em}#header #user-menu .user>span{font-size:12px}#header #user-menu #entrar-mob{display:none}#header #menu-mobile{margin-top:8px;margin-left:-10px;margin-right:-10px;box-shadow:0 4px 6px rgba(0,0,0,.1)}#header #menu-mobile.opened .items.closed{display:table}#header #menu-mobile.opened .items>div#more{background:#7b756e}#header #menu-mobile.opened .items>div#more>span>span{transform:rotate(180deg);position:relative;top:-2px}#header #menu-mobile .items{display:table;width:100%;background:#f7f7f7;border-top:1px solid #dedede}#header #menu-mobile .items.closed{display:none}#header #menu-mobile .items>div{text-align:center;display:table-cell;vertical-align:middle;padding:2px 0}#header #menu-mobile .items>div:not(:first-child){border-left:1px solid #dedede}#header #menu-mobile .items>div>a,#header #menu-mobile .items>div>span{display:block;padding:10px 0;line-height:1;font-weight:700}#header #menu-mobile .items>div>a{text-decoration:none;color:#7b756e;font-size:14px}#header #menu-mobile .items>div#more{background:#bfbfbf;border:0}#header #menu-mobile .items>div#more>span{color:#fff;font-size:10px;text-transform:uppercase;font-weight:700;letter-spacing:.03em}#header #menu-mobile .items>div#more>span>span{margin-left:4px;font-size:8px;vertical-align:middle;display:inline-block;min-width:10px}#header #menu-mobile .items>div#adicionar{padding:8px 10px}#header #menu-mobile .items>div#adicionar>a{color:#fff;background:#00ce71;border-radius:4px}#header #menu-mobile .items>div#adicionar>a>span{margin-right:6px;font-size:16px;vertical-align:middle;display:inline-block}#logo{height:30px;line-height:30px;margin:0}#logo img{width:auto;height:24px}}@media (min-width:769px) and (max-width:900px){#menu{margin-left:10px}#menu li a{padding:0 8px}.busca input{width:150px}}.breadcrumbs{padding:0;margin:-20px 0 10px;font-size:.6875rem}.breadcrumbs li{list-style:none;display:inline-block}.breadcrumbs a{color:#403e3b;display:inline-block;text-decoration:underline}.breadcrumbs li>span.a{display:inline-block;margin:0 6px;font-size:.6em}#content .top .fb-share{opacity:0;float:right}@media (max-width:768px){#content .top .fb-share{position:absolute}}#content .top .sg-social-page{position:absolute;opacity:0}.top.article .sg-social{height:36px;opacity:0}@media (max-width:769px){.top.article .sg-social{height:24px}}.content-img .sg-social{opacity:0;position:absolute}@media (max-width:1045px){.art-share>li{float:left}}@media (max-width:769px){#card_detalhe .total-shares-mobile{margin-top:12px;margin-left:45px}}.dfp-mrec-bio,.gooad,.gooad_bot,.gooad_frase{margin:0 0 30px;min-height:250px;text-align:center}.dfp-mrec-bio>div,.gooad>div,.gooad_bot>div,.gooad_frase>div{display:inline-block;margin:0 14px}.dfp-mrec-bio,.gooad_frase{background:#fafafa;padding:10px 0!important}.gooad.article{margin-top:40px}.ad-unit{position:relative;padding:20px 0 10px;text-align:center}.ad-unit>div{display:block;margin:auto;min-height:250px}.ad-unit>div:before{content:"PUBLICIDADE";font-size:.5625rem;color:#6f7e8a;text-align:center;display:block;left:0;right:0;top:0}.iconbar{opacity:0;height:37px}@media (min-width:769px){.iconbar{height:32px}}.author-article{position:relative;font-size:.75rem;font-family:sans-serif;line-height:1.4;color:#7b756e;margin:10px 0 0}.author-article time{width:auto}.author-article--t{margin:0 0 20px;display:table}.author-article--t__photo{position:relative;display:table-cell;width:36px;height:36px;float:left;border-radius:100px;overflow:hidden;margin-right:7px}.author-article--t__photo img{width:100%;height:100%}.author-article--t__photo+.author-article--t__info{min-height:36px}.author-article--t__info{display:table-cell;vertical-align:middle}.author-article--t__info__name,.author-article--t__info__reviewer{display:inline}.author-article--t__info__name span,.author-article--t__info__reviewer span{font-weight:700;-webkit-font-smoothing:antialiased}.author-article--t__info__date,.author-article--t__info__job-title{display:inline-block;width:100%}.author-article--t__info__date{font-size:inherit}.author-article--t__info__reviewer+.author-article--t__info__name{display:inline-block;width:100%}@media (min-width:768px){.author-article--t__info-recent .author-article--t__info__reviewer+.author-article--t__info__name{display:inline;width:auto}.author-article--t__info-recent .author-article--t__info__reviewer+.author-article--t__info__name:before{content:" • "}}@media (min-width:768px){.author-article--t__info-recent .author-article--t__info__job-title{display:inline;width:auto}.author-article--t__info-recent .author-article--t__info__job-title:before{content:" • "}}@media (max-width:1045px){#content .outros-contents ul.col-2 li:not(:first-child),.cats-list-l ul.col-2 li:not(:first-child),.cats-list-nol ul.col-2 li:not(:first-child),.cats-list ul.col-2 li:not(:first-child){width:47%}#content .outros-contents ul.col-2 li:not(:first-child):nth-child(2n),.cats-list-l ul.col-2 li:not(:first-child):nth-child(2n),.cats-list-nol ul.col-2 li:not(:first-child):nth-child(2n),.cats-list ul.col-2 li:not(:first-child):nth-child(2n){margin-right:10px}#content .outros-contents ul.col-2 li:not(:first-child):nth-child(odd),.cats-list-l ul.col-2 li:not(:first-child):nth-child(odd),.cats-list-nol ul.col-2 li:not(:first-child):nth-child(odd),.cats-list ul.col-2 li:not(:first-child):nth-child(odd){margin-left:10px}#content .outros-contents ul.col-2 li:not(:first-child):nth-last-child(2),.cats-list-l ul.col-2 li:not(:first-child):nth-last-child(2),.cats-list-nol ul.col-2 li:not(:first-child):nth-last-child(2),.cats-list ul.col-2 li:not(:first-child):nth-last-child(2){border:0}#content.category .left-c .block.full a{width:47%}#content.category .left-c .block.full a:nth-of-type(n+3){border-top:1px solid #eee}#content.category .left-c .block.full a:nth-child(2n){margin:0 10px 0 0!important}#content.category .left-c .block.full a:nth-child(odd){margin:0 0 0 10px!important}#content.category .left-c .block.half-1{width:44%}.phrase_image{padding:10px 10px 0}.insert{padding-left:10px}.report{padding-right:10px}.pensaFrase p.fr{font-size:1.3rem}#sidebar .addQuote,.pensaFrase p.fr0{font-size:.875rem}#sidebar .addQuote span{width:38px}.social-article-wrapper .social-article a img{width:80px}.social-article-wrapper .social-article a span{padding:0 0 0 90px}#article blockquote{margin-right:0;font-size:1.4em;padding-left:20px}.top.article li.data{display:block;width:100%;margin:10px 0 0;padding-left:5px}.content-img{margin-top:30px}.content-img img{height:auto;width:auto;display:block}}@media (max-width:500px){.content-img{margin-left:-10px;margin-right:-10px}.content-img img{width:100%;max-height:700px;margin:0 auto}.texto p>img{max-width:none;margin:0 -10px;width:calc(100% + 20px)}}@media (max-width:768px){.container,[class*=col-]{padding-left:10px;padding-right:10px}.row{margin-left:-10px;margin-right:-10px}button,input.btn{border-width:1px}.h1,h1{font-size:1.3rem}.art-share .numbers,.h2,h2{font-size:1.2rem}#content.category .left-c .block.full .cats-list-l h2,#content .outros-contents .art-share .cats-list-l .numbers,#content .outros-contents .cats-list-l .h2,#content .outros-contents .cats-list-l .h3,#content .outros-contents .cats-list-l .h4,#content .outros-contents .cats-list-l h2,#content .outros-contents .cats-list-l h3,#content .outros-contents .cats-list-l h4,#sidebar .resumo .cats-list-l .title,#sidebar .right-c .block .cats-list-l h2,.art-share #content .outros-contents .cats-list-l .numbers,.art-share .cats-list-l .numbers,.cats-list-l #content.category .left-c .block.full h2,.cats-list-l #content .outros-contents .art-share .numbers,.cats-list-l #content .outros-contents .h2,.cats-list-l #content .outros-contents .h3,.cats-list-l #content .outros-contents .h4,.cats-list-l #content .outros-contents h2,.cats-list-l #content .outros-contents h3,.cats-list-l #content .outros-contents h4,.cats-list-l #sidebar .resumo .title,.cats-list-l #sidebar .right-c .block h2,.cats-list-l .art-share #content .outros-contents .numbers,.cats-list-l .art-share .numbers,.cats-list-l .cats-list-nol h2,.cats-list-l .cats-list-nol h3,.cats-list-l .cats-list-nol h4,.cats-list-l .h2,.cats-list-l .h3,.cats-list-l .h4,.cats-list-l h2,.cats-list-l h3,.cats-list-l h4,.cats-list-nol .cats-list-l h2,.cats-list-nol .cats-list-l h3,.cats-list-nol .cats-list-l h4,.h3,h3{font-size:1rem}body{padding-top:85px}#content .outros-contents,.cats-list,.cats-list-l,.cats-list-nol{margin:25px 0}#content .half.outros-contents,.cats-list.half,.half.cats-list-l,.half.cats-list-nol{width:100%;display:block;padding-left:0!important;padding-right:0!important}#content .outros-contents .mais,.cats-list-l .mais,.cats-list-nol .mais,.cats-list .mais{top:13px;padding:8px 10px}#content .outros-contents ul.col-2 li,.cats-list-l ul.col-2 li,.cats-list-nol ul.col-2 li,.cats-list ul.col-2 li{display:block!important;width:100%!important;margin-left:0!important;margin-right:0!important}ul.custom.col2 li{width:100%;float:none}.phrases-list>div:not(.paginacao){margin-bottom:15px}.phrases-list>div:not(.paginacao):not(.gooad):not(.gooadx):not(.ad-unit):not(.gooad_bot):not(.dfp-mrec-bio):not(.related-incontent):not(.related-incontent--thumbs-wrapper){padding:10px 10px 0}.phrases-list>div.gooad{margin-top:0}.phrases-list>div p.fr,.phrases-list>div p.fr0{word-wrap:break-word}.phrases-list>div .autor.half{width:100%;display:block}.phrases-list>div .insert-onlist{display:none}.phrases-list>div.wimage{display:block}.phrases-list>div.wimage>div{width:auto;display:block}.phrases-list>div.wimage .content{padding:0}.phrases-list>div.wimage .content .autor,.phrases-list>div.wimage .content p{display:none}.phrases-list>div.wimage .iconbar{position:relative;padding:0 10px 0 0;margin:0}.phrase_image .img{margin:-10px -10px 0}.phrase_image .img+.pensaFrase{margin:10px 0}.arel-w{margin:0;padding:0!important;margin-bottom:20px!important}.arel-w .arel-block{padding:0;width:100%;display:block}.arel-w .arel-block+.arel-block{margin-top:15px}.arel-w .arel-block>div{padding:0 15px 8px!important}.arel-w .title{margin:0 -10px 8px;padding:15px}#content{margin-top:10px}#content .top h1{padding-top:5px;padding-right:80px}#content h1.titFrase{margin-top:0;padding-top:0}#content .outros-contents ul{width:100%}#content .top .r-info{position:static}#content .top .r-info .total{float:left}#content.category .left-c,#content.category .left-c .block.full{margin-left:0;margin-right:0}#content.category .left-c .block.full a,#content.category .left-c .block.full a:nth-child(2n),#content.category .left-c .block.full a:nth-child(odd){width:100%;margin:0!important}#content.category .left-c .block.full a:not(:first-of-type),#content.category .left-c .block.full a:nth-child(2n):not(:first-of-type),#content.category .left-c .block.full a:nth-child(odd):not(:first-of-type){border-top:1px solid #eee}#content.category .left-c .block.half-1{display:block;width:100%;margin-left:0;margin-right:0}#content .piw{transition:all .4s ease;max-height:0;padding:0;overflow:hidden;margin:0 -10px}#content .piw img{opacity:0;transition:opacity .4s ease}#content .piw.imgloaded{max-height:315px}#content .piw.imgloaded img{opacity:1}#content .linkDetailImage .icon-spinner{-webkit-animation:spin 2s ease-in-out infinite;animation:spin 2s ease-in-out infinite}@-webkit-keyframes spin{50%{transform:rotate(180deg)}to{transform:rotate(1turn)}}@keyframes spin{50%{transform:rotate(180deg)}to{transform:rotate(1turn)}}#content .top.autor{display:block;border:0;position:relative;background:#fafafa;background:#eee;width:auto;margin:-10px -10px 0;padding:10px}#content .top.autor .details,#content .top.autor .img{vertical-align:top;display:inline-block}#content .top.autor .img{width:70px;height:70px;position:absolute;left:10px;top:10px}#content .top.autor .details{width:100%;padding-right:40px}#content .top.autor .img+.details{padding-left:75px;min-height:70px;padding-top:5px}#content .top.autor h1{font-size:1.125rem;padding:0 35px 0 0}#content .top.autor .tagline{font-size:12px;margin-top:5px}#content .top.autor .links{margin-top:10px;display:table;table-layout:fixed;text-align:center;width:100%}#content .top.autor .links.d{display:none}#content .top.autor .links.m{display:table}#content .top.autor .links a{display:table-cell;vertical-align:middle;margin:0!important;border-radius:0;float:none;padding:10px 0;word-wrap:break-word}#content .top.autor .links a:not(:last-child){border-right:0}#content .top.autor .links a:first-child{border-bottom-left-radius:3px;border-top-left-radius:3px}#content .top.autor .links a:last-child{border-bottom-right-radius:3px;border-top-right-radius:3px}#content .top.autor .fb-share{top:5px}#content .top.autor+.autorTotal{padding-bottom:10px}#sidebar{padding-left:10px;padding-right:10px;margin-top:-10px;margin-bottom:-20px}#sidebar .addQuote{display:none}#sidebar .addQuote span{float:none;margin-top:0}.social-article-wrapper{margin:0;overflow:hidden;display:inline-block}.social-article-wrapper .social-article{clear:none!important;width:50%}.social-article-wrapper .social-article a img{width:100%;margin:0;box-shadow:0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.2);border-radius:3px}.social-article-wrapper .social-article a span{width:100%;display:inline-block;padding:.4em .1em 0}.social-article-wrapper div:nth-child(odd){clear:left!important;padding-right:10px}.social-article-wrapper div:nth-child(2n){padding-left:10px}.texto{margin-bottom:30px}#content .autor-lista>p{width:100%;display:block}.form .form-group label{width:100%;text-align:left;margin-bottom:10px;padding:0}.form .form-group .wrapper{width:100%;padding:0}.form .form-group .wrapper.input{margin-top:10px;margin-left:0}.form .form-group textarea{height:100px}.form .form-group.check{margin:0;padding:0;width:100%}.form-wrapper{width:100%}.logForm+.b-small{margin-bottom:30px}#overlay{background:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.5))}#overlay #popup{margin:40px auto 30px;left:auto;width:90%}#overlay #popup .bottom,#overlay #popup .modal-form-wrapper{padding-bottom:20px;padding-left:20px;padding-right:20px}#overlay .input-wrapper.check{margin-bottom:0}#article blockquote,.article-body blockquote{font-size:16.5px}#article blockquote.fr0,.article-body blockquote.fr0{font-size:15px}#content .top.article{margin-bottom:10px}#content .top.article h1{padding-right:0;float:none}.thought-card .image-card-link{display:block;margin:-10px -12px 15px}.thought-card .image-card-link img{width:630px;height:auto}}@media (max-width:425px){#content .top.autor .links a:last-child{display:none;border-bottom-right-radius:3px;border-top-right-radius:3px}.logForm label{width:100%;margin:10px 0 2px}.logForm input:not([type=checkbox]){display:block;width:100%;margin:0 0 20px}}@media (max-width:340px){.stats.collection.trim span{width:58px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;vertical-align:middle}}.topo-home{position:relative;text-align:center;overflow:hidden}@media (max-width:768px){.topo-home{margin-bottom:10px}}.topo-home h1{font-family:Georgia,Times,serif;margin-bottom:0;padding-bottom:0}.topo-home p{font-size:1.125rem;margin-top:0}.topo-home img{position:absolute;left:0;top:0;-o-object-fit:cover;object-fit:cover;width:100%;height:100%}#buscahome{height:52px;margin:0 auto 30px;padding:6px;width:400px}#buscahome:after,#buscahome:before{content:" ";display:table}#buscahome:after{clear:both}@media (max-width:768px){#buscahome{width:100%}}#buscahome form{float:none;width:100%;margin-top:0;height:40px}#buscahome button,#buscahome input{height:40px;float:left;line-height:normal}#buscahome input{width:88%}@media (max-width:768px){#buscahome input{width:84%}}#buscahome input::-webkit-input-placeholder{font-size:.875rem}#buscahome input:-moz-placeholder,#buscahome input::-moz-placeholder{font-size:.875rem}#buscahome input:-ms-input-placeholder{font-size:.875rem}#buscahome button{font-size:1.125rem;line-height:38px;width:12%}@media (max-width:768px){#buscahome button{width:16%}}#topautores{margin-bottom:20px}#topautores h2{margin-bottom:0}@media (max-width:768px){#topautores h2{margin-top:0}}#topautores ul{margin:0 -10px;text-align:center;padding:0;font-size:.875rem}@media (min-width:769px){#topautores ul{margin:0;text-align:left}}#topautores li{list-style:none;display:inline-block;vertical-align:top;text-align:left;margin:0 5px 20px 0;width:100px}@media (max-width:420px){#topautores li:nth-last-of-type(2){display:none}}@media (min-width:769px) and (max-width:824px){#topautores li:nth-last-of-type(2){display:none}}@media (min-width:769px){#topautores li{width:130px;margin:0 0 20px}}#topautores li a{display:inline-block}#topautores li a img{display:block;position:relative;width:110px;height:110px;border-radius:4px;margin:0 0 5px}@media (max-width:768px){#topautores li a img{width:100px;height:100px}}#topautores li a span{display:inline-block;text-align:left;max-width:100px}@media (max-width:768px){#topautores #mais{width:100px;margin-right:0}}#topautores #mais a{color:#757575;text-decoration:none}#topautores #mais a span{display:block;text-align:center}#topautores #mais a .see-all-arrow{max-width:inherit;font-size:2rem;text-align:center;margin:0 0 5px;line-height:3;color:#7b756e;width:110px;height:110px;background:#f5f2ed;border-radius:4px;border:1px solid #eee;text-decoration:none}@media (max-width:768px){#topautores #mais a .see-all-arrow{line-height:2.8;width:100px!important;height:100px!important}}.inline-thought-card{border:1px solid #f5f5f5;box-shadow:0 1px 2px 0 rgba(0,0,0,.15);border-radius:2px;background:#fafafa;padding:10px 12px 0}.inline-thought-card p{padding:0;position:relative;word-wrap:break-word;z-index:0}.inline-thought-card p.img{margin:-10px -12px 0}.inline-thought-card p.img img{width:100%}.inline-thought-card p.fr,.inline-thought-card p.fr0{line-height:1.3;padding:0 0 10px 35px}.inline-thought-card p.fr0:before,.inline-thought-card p.fr:before{content:"";width:20px;height:20px;background:url(/img/quote.png) 50% no-repeat;background-size:100%;position:absolute;left:2px;top:-2px;pointer-events:none;-webkit-user-select:none}.inline-thought-card p.fr{font-size:1.125rem}.inline-thought-card p.fr0,.inline-thought-card p.fr.fr0{font-size:1rem}.inline-thought-card .autor{font-size:.75rem;display:block;margin-top:10px;margin-bottom:15px;padding-left:35px;color:#7b756e}.inline-thought-card .autor a{text-decoration:none}.inline-thought-card .autor a:hover{text-decoration:underline}.inline-thought-card .autor.half{display:inline-block;width:50%}.inline-thought-card .insert-onlist{display:inline-block;width:50%;font-size:.625rem;color:#807b75;text-align:right}.inline-thought-card .insert-onlist a{color:inherit;text-decoration:none;font-weight:700}.inline-thought-card .insert-onlist a:hover{text-decoration:underline}
+linknoscript <link rel="stylesheet" href="/dist/css/main.5ff92e90d2a6f22feb65.css">
+linklink script window.dataLayer=window.dataLayer||[];dataLayer.push({'contentGroup1':'Direct'});dataLayer.push({'contentGroup2':'Categoria'});
+ script (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TTRDWTG');
+ linklinklinklinklinklinkmetametametameta script
+script var googletag=window.googletag||{cmd:[]};if(window.localStorage&&!window.localStorage.getItem("sg_gpt_event")){window.localStorage.setItem("sg_gpt_event",Math.floor((Math.random()*100)+1)<=10?1:0);}
+  script if(window.performance&&typeof window.performance.mark==='function'){window.performance.mark('tbl_ic');}
+ 
+body noscript <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTRDWTG" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+ script var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"21145335"});_comscore.push({c1:"8",c2:"21145335",c3:"1111"});(function(){if(!("localStorage"in window)){window.localStorage={_data:{},setItem:function(id,val){return this._data[id]=String(val)},getItem:function(id){return this._data.hasOwnProperty(id)?this._data[id]:null}}}
+var loadScript=function(){if(eu=="0"){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src="https://sb.scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el);}};var eu=localStorage.getItem("sg_eu");if(eu===null){var request=new XMLHttpRequest();request.open("GET",window.location.protocol+"//eu.7gra.us/",true);request.onreadystatechange=function(){if(this.readyState===4&&this.status===200){eu=this.responseText;localStorage.setItem("sg_eu",eu)
+loadScript();}};request.send();}
+loadScript();})();
+ divdivdivdivdiv a
+ullia Frases
+
+lia Autores
+
+lia Recentes
+
+lia Populares
+
+lia Biografias
+
+lia Temas
+
+
+divul
+
+divform input buttonspan
+
+
+
+
+
+
+
+divdivdivolli a span Pensador
+
+meta
+lispan
+
+li a span Pensamentos
+
+meta
+
+divdivdivdivbutton span
+ span Compartilhar
+ 
+
+divbutton span
+ 
+
+
+
+h1 Pensamentos
+
+divdivh2 Melhores Pensamentos
+ a Pensamentos sobre a Vida
+a Pensamentos Positivos
+a Mensagens de Reflexão
+a Pensamentos Sábios
+a Pensamentos Filosóficos
+a Pensamentos de Amor
+a Pensamentos Bíblicos
+a Pensamentos Tristes
+a Pensamentos de Amizade
+
+divh3 Amor
+a Pensamentos de Amor
+a Pensamentos Meu Amor
+a Pensamentos Românticos
+
+divh3 Refletir
+a Pensamentos Inteligentes
+a Frases de Pensamentos
+a Pequenas Frases de Pensamentos
+
+
+h3 Pensamentos em Destaque
+divdiv
+divp As pessoas felizes lembram o passado com gratidão, alegram-se com o presente e encaram o futuro sem medo.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 1.9 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp A morte não é nada para nós, pois, quando existimos, não existe a morte, e quando existe a morte, não existimos mais.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 1.5 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp O desejo é a causa de todos os males.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 124span compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+div
+divp Quanto maior se é, mais repetido se é. Platão, Aristóteles, Kant, quantos outros. Ainda se não calaram nos que deles falaram. E é possível que só se calem quando a espécie humana se calar.
+ span a Vergílio Ferreira
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 55span compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp O prazer de fazer o bem, é maior do que recebê-lo.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 2 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp É estupidez pedir aos deuses aquilo que se pode conseguir sozinho.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 692span compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp A amizade e a lealdade residem numa identidade de almas raramente encontrada.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 3.8 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp Só há um caminho para a felicidade. Não nos preocuparmos com coisas que ultrapassam o poder da nossa vontade.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 985span compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp Não se pode não ter medo quando se inspira o medo.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 195span compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp A justiça é a vingança do homem em sociedade, como a vingança é a justiça do homem em estado selvagem.
+ span a Epicuro
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 352span compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp O ignorante afirma, o sábio duvida, o sensato reflete.
+ span a Aristóteles
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 461 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp A vantagem de ter péssima memória é divertir-se muitas vezes com as mesmas coisas boas como se fosse a primeira vez.
+ span a Friedrich Nietzsche
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 11 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp Para conhecermos os amigos é necessário passar pelo sucesso e pela desgraça. No sucesso, verificamos a quantidade e, na desgraça, a qualidade.
+ span a Confúcio
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 2 milhõesspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp Fiquei magoado, não por me teres mentido, mas por não poder voltar a acreditar-te.
+ span a Friedrich Nietzsche
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 9.7 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp O sábio nunca diz tudo o que pensa, mas pensa sempre tudo o que diz.
+ span a Aristóteles
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 18 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+div
+ script
+ script
+ script window.onload=function(){new Feedback({environment:"production",project_id:37,project_name:"pensador.com",author_id:"",author_name:"",content_type:"list",content_id:"106681",content_url:"pensamentos",content_title:"Pensamentos",rating_title:{element:"div",id:"rating-title",class:"sg-feedback__rating-title",text:"Gostando dos pensamentos?",visible:true},rating_option_radio:{options:[{type:"positive",class:"sg-feedback__rating-label--positive icon-smile-positive",text:"",value:"100",improvement_title:"Obrigado. Como podemos melhorar?",improvement_comment_placeholder:"Escreva aqui para que possamos melhorar",improvement_options:[]},{type:"negative",class:"sg-feedback__rating-label--positive icon-smile-negative",text:"",value:"0",improvement_title:"Obrigado. Como podemos melhorar?",improvement_comment_placeholder:"Escreva aqui para que possamos melhorar",improvement_options:null}]}});}
+ divp Exige muito de ti e espera pouco dos outros. Assim, evitarás muitos aborrecimentos.
+ span a Confúcio
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 11 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo.
+ span a Confúcio
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 7 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp Há sempre alguma loucura no amor. Mas há sempre um pouco de razão na loucura.
+ span a Friedrich Nietzsche
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 4.9 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp Não há ninguém, mesmo sem cultura, que não se torne poeta quando o amor toma conta dele.
+ span a Platão
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 2.5 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+divp O que não provoca minha morte faz com que eu fique mais forte.
+ span a Friedrich Nietzsche
+ 
+divdivdiv
+divdivbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+divbutton span
+ 
+
+
+div 14 milspan compartilhamentos
+
+
+divdiv a i
+ span Adicionar à coleção
+
+
+div ai
+span Ver imagem
+
+
+
+
+
+div
+div span 1
+ a 2
+ a 3
+ a 4
+ a 5
+ a 6
+ a 7
+ a 8
+ a 9
+ a 10
+ a Próxima >
+
+div
+
+div
+ script window.addEventListener("load",function(){var taboola_mode="thumbnails-a";Sg_Utils.onReadyStateComplete(function(){window._taboola=window._taboola||[];_taboola.push({article:'auto'});_taboola.push({mode:taboola_mode,container:(Sg_Utils.userAgentIsMobile()?'taboola-mobile':'taboola-desktop'),placement:'Below Article Thumbnails',target_type:'mix'});Sg_Utils.getScript('//cdn.taboola.com/libtrc/7grausnew-pensador/loader.js');});pensador.stats.hitsListsCount("pensamentos");});
+ 
+div aspan
+ Adicionar pensamento
+divdivh2 Autores
+a Pensamentos de Mário Quintana
+a Pensamentos de Bob Marley
+a Pensamentos de Charles Chaplin
+a Pensamentos de Paulo Coelho
+
+divdiv a img span 43 frases e pensamentos para refletir sobre a morte
+ 
+
+div a img span 11 pensamentos de Mario Sergio Cortella para conhecer este filósofo brasileiro
+ 
+
+div a img span 7 pensamentos para entender a filosofia de Zygmunt Bauman
+ 
+
+div a img span 15 ensinamentos de Pitágoras: as 15 melhores frases e pensamentos
+ 
+
+
+
+divdivdivspan
+ Receba inspiração semanal
+div Agora você pode ter o melhor do Pensador no seu e-mail.
+divdiv input
+div input
+
+
+
+div
+
+
+divdivpstrong Pensador
+ : colecione e compartilhe frases, poemas, mensagens e textos.
+div
+ullia Reportar erro / Denunciar
+
+lia Sobre
+
+lia Termos de uso
+
+lia Privacidade
+
+lia Contato
+
+lia Datas especiais
+
+lia RSS
+
+lia Melhores Inspirações
+
+lia Últimas Inspirações
+
+
+ span © 2005 - 2022aspan
+
+
+
+
+
+
+divdiv svgpath
+
+
+div
+
+ script window.___sgcfg={facebook_app_id:'110725355668331'};
+ script var pensador_data=pensador_data||{};
+ script pensador_data['phrase-images']={"MTEzMDU":{"alt":"As pessoas felizes lembram o passado com gratid\u00e3o, alegram-se com o presente e encaram o futuro sem medo.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_as_pessoas_felizes_lembram_o_passado_com_gratid_l26w94k.jpg","width":600,"height":315,"primary":1},"ODY5OQ":{"alt":"A morte n\u00e3o \u00e9 nada para n\u00f3s, pois, quando existimos, n\u00e3o existe a morte, e quando existe a morte, n\u00e3o existimos mais.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_a_morte_nao_e_nada_para_nos_pois_quando_existim_lx09znx.jpg","width":600,"height":315,"primary":1},"NjM4Mg":{"alt":"O desejo \u00e9 a causa de todos os males.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_o_desejo_e_a_causa_de_todos_os_males_l2grymk.jpg","width":600,"height":315,"primary":1},"Nzc3MA":{"alt":"Quanto maior se \u00e9, mais repetido se \u00e9. Plat\u00e3o, Arist\u00f3teles, Kant, quantos outros. Ainda se n\u00e3o calaram nos que deles falaram. E \u00e9 poss\u00edvel que s\u00f3 se calem quand... Frase de Verg\u00edlio Ferreira.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ve\/rg\/vergilio_ferreira_quanto_maior_se_e_mais_repetido_se_e_l2d516x.jpg","width":600,"height":315,"primary":1},"NDU0NQ":{"alt":"O prazer de fazer o bem, \u00e9 maior do que receb\u00ea-lo.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_o_prazer_de_fazer_o_bem_e_maior_do_que_recebe_l_l2qo8gx.jpg","width":600,"height":315,"primary":1},"MTQ5Nzc":{"alt":"\u00c9 estupidez pedir aos deuses aquilo que se pode conseguir sozinho.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_e_estupidez_pedir_aos_deuses_aquilo_que_se_pode_l2641l4.jpg","width":600,"height":315,"primary":1},"MTI5MTk":{"alt":"A amizade e a lealdade residem numa identidade de almas raramente encontrada.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_a_amizade_e_a_lealdade_residem_numa_identidade_lk9y8o2.jpg","width":600,"height":315,"primary":1},"NjkzMw":{"alt":"S\u00f3 h\u00e1 um caminho para a felicidade. N\u00e3o nos preocuparmos com coisas que ultrapassam o poder da nossa vontade.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_so_ha_um_caminho_para_a_felicidade_nao_nos_preo_lk1p1dk.jpg","width":600,"height":315,"primary":1},"MzUwMzg":{"alt":"N\u00e3o se pode n\u00e3o ter medo quando se inspira o medo.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_nao_se_pode_nao_ter_medo_quando_se_inspira_o_me_lx48p6q.jpg","width":600,"height":315,"primary":1},"MTI0":{"alt":"A justi\u00e7a \u00e9 a vingan\u00e7a do homem em sociedade, como a vingan\u00e7a \u00e9 a justi\u00e7a do homem em estado selvagem.... Frase de Epicuro.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ep\/ic\/epicuro_a_justica_e_a_vinganca_do_homem_em_sociedade_co_le25el2.jpg","width":600,"height":315,"primary":1},"NDMwMA":{"alt":"O ignorante afirma, o s\u00e1bio duvida, o sensato reflete.... Frase de Arist\u00f3teles.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ar\/is\/aristoteles_o_ignorante_afirma_o_sabio_duvida_o_sensato_l25onlx.jpg","width":600,"height":315,"primary":1},"MTkw":{"alt":"A vantagem de ter p\u00e9ssima mem\u00f3ria \u00e9 divertir-se muitas vezes com as mesmas coisas boas como se fosse a primeira vez.... Frase de Friedrich Nietzsche.","path":"https:\/\/cdn.pensador.com\/img\/frase\/fr\/ie\/friedrich_nietzsche_a_vantagem_de_ter_pessima_memoria_e_l6k7ze2.jpg","width":600,"height":315,"primary":1},"NTE0Mg":{"alt":"Para conhecermos os amigos \u00e9 necess\u00e1rio passar pelo sucesso e pela desgra\u00e7a. No sucesso, verificamos a quantidade e, na desgra\u00e7a, a qualidade.... Frase de Conf\u00facio.","path":"https:\/\/cdn.pensador.com\/img\/frase\/co\/nf\/confucio_para_conhecermos_os_amigos_e_necessario_passar_lk7qe52.jpg","width":600,"height":315,"primary":1},"NjI0OA":{"alt":"Fiquei magoado, n\u00e3o por me teres mentido, mas por n\u00e3o poder voltar a acreditar-te.... Frase de Friedrich Nietzsche.","path":"https:\/\/cdn.pensador.com\/img\/frase\/fr\/ie\/friedrich_nietzsche_fiquei_magoado_nao_por_me_teres_men_l25d3qk.jpg","width":600,"height":315,"primary":1},"MzYyMw":{"alt":"O s\u00e1bio nunca diz tudo o que pensa, mas pensa sempre tudo o que diz.... Frase de Arist\u00f3teles.","path":"https:\/\/cdn.pensador.com\/img\/frase\/ar\/is\/aristoteles_o_sabio_nunca_diz_tudo_o_que_pensa_mas_pens_lk8rrv2.jpg","width":600,"height":315,"primary":1},"Mzg4OA":{"alt":"Exige muito de ti e espera pouco dos outros. Assim, evitar\u00e1s muitos aborrecimentos.... Frase de Conf\u00facio.","path":"https:\/\/cdn.pensador.com\/img\/frase\/co\/nf\/confucio_exige_muito_de_ti_e_espera_pouco_dos_outros_as_l2jjzd2.jpg","width":600,"height":315,"primary":1},"MTI3NQ":{"alt":"Quando vires um homem bom, tenta imit\u00e1-lo; quando vires um homem mau, examina-te a ti mesmo.... Frase de Conf\u00facio.","path":"https:\/\/cdn.pensador.com\/img\/frase\/co\/nf\/confucio_quando_vires_um_homem_bom_tenta_imita_lo_quand_lx0zj32.jpg","width":600,"height":315,"primary":1},"NzU2NA":{"alt":"H\u00e1 sempre alguma loucura no amor. Mas h\u00e1 sempre um pouco de raz\u00e3o na loucura.... Frase de Friedrich Nietzsche.","path":"https:\/\/cdn.pensador.com\/img\/frase\/fr\/ie\/friedrich_nietzsche_ha_sempre_alguma_loucura_no_amor_ma_l2jm7r2.jpg","width":600,"height":315,"primary":1},"NjM0OQ":{"alt":"N\u00e3o h\u00e1 ningu\u00e9m, mesmo sem cultura, que n\u00e3o se torne poeta quando o amor toma conta dele.... Frase de Plat\u00e3o.","path":"https:\/\/cdn.pensador.com\/img\/frase\/pl\/at\/platao_nao_ha_ninguem_mesmo_sem_cultura_que_nao_se_torn_lkr847x.jpg","width":600,"height":315,"primary":1},"MTA1OQ":{"alt":"O que n\u00e3o provoca minha morte faz com que eu fique mais forte.... Frase de Friedrich Nietzsche.","path":"https:\/\/cdn.pensador.com\/img\/frase\/fr\/ie\/friedrich_nietzsche_o_que_nao_provoca_minha_morte_faz_c_lkzqrjk.jpg","width":600,"height":315,"primary":1}};
+ script
+script
+script if(('Notification'in window)){(function(e,b,c){function d(){a=b.createElement(c);m=b.getElementsByTagName(c)[0];a.async=1;a.src="https://cdn.7gra.us/html5-push-notifications/v1.js";m.parentNode.insertBefore(a,m)}"complete"===b.readyState&&d();b.addEventListener("readystatechange",function(f){"complete"===f.target.readyState&&d()})})(window,document,"script");document.addEventListener('Sg_Html5PushNotifications',function(){Sg_Html5PushNotifications.init({"enabled":true,"domain_token":"2y10vpcUMEfCkLmxGTuNkfCBiMZr6jU5AU3AiYollRYzmvAtFrCjFlPO","rule":{"enabled":true,"pages":2,"days":15}});},false);}
+ script (function(){googletag.cmd.push(function(){googletag.pubads().enableLazyLoad({"fetchMarginPercent":500,"renderMarginPercent":200,"mobileScaling":2});googletag.pubads().disableInitialLoad();googletag.enableServices();var sm0=googletag.sizeMapping().addSize([0,0],[]).addSize([300,0],[[250,250],[200,200]]).addSize([320,0],[[300,250],[250,250],[200,200]]).addSize([336,0],[[300,250],[250,250],[200,200]]).addSize([356,0],[[336,280],[300,250],[250,250],[200,200]]).addSize([992,0],[[300,600],[160,600],[240,400],[300,250],[120,600],[250,250],[200,200]]).build(),sm1=googletag.sizeMapping().addSize([0,0],[]).addSize([300,0],[[250,250],[200,200]]).addSize([320,0],[[300,250],[250,250],[200,200]]).addSize([336,0],[[300,250],[250,250],[200,200]]).addSize([356,0],[[336,280],[300,250],[250,250],[200,200]]).build(),sm2=googletag.sizeMapping().addSize([0,0],[]).addSize([300,0],[[300,50]]).addSize([320,0],[[320,50],[300,50]]).addSize([768,0],[]).build();var ss0=[[336,280],[300,600],[300,250],[250,250],[240,400],[200,200],[160,600],[120,600]],ss1=[[336,280],[300,250],[250,250],[200,200]],ss2=[[320,50],[300,50]];var s0=googletag.defineSlot('/1062898/PENSADOR_BR_LISTAS_SIDEBARSTICKY',ss0,'div-gpt-sg-64abf38af21ded9168df42aae7fa8d1f').defineSizeMapping(sm0).addService(googletag.pubads()),s1=googletag.defineSlot('/1062898/PENSADOR_BR_LISTAS_INCONTENT1',ss1,'div-gpt-sg-ecabfa7903a4c3815cf270d16fe0c790').defineSizeMapping(sm1).addService(googletag.pubads()),s2=googletag.defineSlot('/1062898/PENSADOR_BR_LISTAS_AFTERCONTENT',ss1,'div-gpt-sg-76bca0a1effc8ae33d82b5990e2cbc4b').defineSizeMapping(sm1).addService(googletag.pubads()),s3=googletag.defineSlot('/1062898/PENSADOR_BR_STICKY_FOOTER',ss2,'div-gpt-sg-6e475e785184e2441dafc18866252f6a').defineSizeMapping(sm2).addService(googletag.pubads());var slots=[s0,s1,s2,s3];function getCookieValueByName(name){var match=document.cookie.match(new RegExp("(^| )"+name+"=([^;]+)"));return match?match[2]:"";}var esbs=!0;var sg_gpt_sb=getCookieValueByName('sg_gpt_sb')==='0';hsbs=function(){this.parentNode.style.display="none";document.body.style.paddingBottom="";dsbs();localStorage.setItem("sg_gpt_sb",0);var d=new Date();d=new Date(d.getTime()+1000*7200);document.cookie="sg_gpt_sb=0; SameSite=None; Secure;expires="+d.toGMTString()+";";},ssbs=function(e){var a=document.getElementById("div-gpt-sg-6e475e785184e2441dafc18866252f6a").parentNode;a.style.display="";document.body.style.paddingBottom="76px";var cb=document.createElement("div");cb.style.clear="both";document.body.appendChild(cb);a.children[0].addEventListener("click",hsbs)},dsbs=function(){googletag.destroySlots([s3]);for(i=slots.length-1;i>=0;--i)if(slots[i]===s3)slots.splice(i,1)};if(sg_gpt_sb){dsbs();}else{googletag.pubads().addEventListener("slotOnload",function(e){if(e.slot===s3&&!esbs)ssbs()});googletag.pubads().addEventListener("slotRenderEnded",function(e){if(e.slot===s3)esbs=e.isEmpty})}slots.forEach(function(s){googletag.display(s.getSlotElementId())});googletag.pubads().refresh(slots);var mc={"div-gpt-sg-64abf38af21ded9168df42aae7fa8d1f":{"reloadTime":45,"adUnitPaths":["\/1062898\/PENSADOR_BR_LISTAS_SIDEBARSTICKY_R1","\/1062898\/PENSADOR_BR_LISTAS_SIDEBARSTICKY_R2","\/1062898\/PENSADOR_BR_LISTAS_SIDEBARSTICKY_R3","\/1062898\/PENSADOR_BR_LISTAS_SIDEBARSTICKY_R4"],"sizeVar":ss0,"sizeMappingVar":sm0},"div-gpt-sg-6e475e785184e2441dafc18866252f6a":{"reloadTime":45,"adUnitPaths":["\/1062898\/PENSADOR_BR_STICKY_FOOTER_R1","\/1062898\/PENSADOR_BR_STICKY_FOOTER_R2","\/1062898\/PENSADOR_BR_STICKY_FOOTER_R3","\/1062898\/PENSADOR_BR_STICKY_FOOTER_R4"],"sizeVar":ss2,"sizeMappingVar":sm2}},mcs,nextAdUnitPath,mcslot;var gae=function(e,s){if(!window.localStorage||window.localStorage.getItem("sg_gpt_event")!=="1")return;if(typeof gtag!=="undefined"){gtag("event",e,{event_category:"Sg_GPT",event_label:s.getAdUnitPath(),non_interaction:true})}else if(typeof ga!=="undefined")ga("send","event","Sg_GPT",e,s.getAdUnitPath(),0,{nonInteraction:true})};googletag.pubads().addEventListener("impressionViewable",function(e){gae("ImpressionViewable",e.slot)});googletag.pubads().addEventListener("slotRenderEnded",function(e){gae("SlotRenderEnded",e.slot)})
+function setDelay(e,slotOptDiv){if(e.slot.getSlotElementId()===slotOptDiv){const mcs=mc[slotOptDiv]||false;let nextAdUnitPath=mcs.adUnitPaths[0]||false;setTimeout(function(){if(nextAdUnitPath){googletag.destroySlots([e.slot]);mcslot=googletag.defineSlot(nextAdUnitPath,mcs.sizeVar,slotOptDiv);if(mcs.sizeMappingVar){mcslot.defineSizeMapping(mcs.sizeMappingVar);}
+if(e.slot.getCollapseEmptyDiv()!==null){mcslot.setCollapseEmptyDiv(e.slot.getCollapseEmptyDiv());}
+mcslot.addService(googletag.pubads());googletag.display([mcslot][0]);googletag.pubads().refresh([mcslot]);mcs.adUnitPaths.splice(mcs.adUnitPaths,1);mc[slotOptDiv].adUnitPaths=mcs.adUnitPaths;}else{googletag.pubads().refresh([mcslot]);}},1e3*mcs.reloadTime);}}
+for(let i=0;i<Object.keys(mc).length;i++){const el=Object.keys(mc)[i];googletag.pubads().addEventListener("impressionViewable",function(e){if(el===e.slot.getSlotElementId()){setDelay(e,el);}})};window.Sg_GPT_get_slots=function(){return slots};})})()
+ script (function(){var loadBar=function(isEu){if(isEu){var s=document.createElement("script")
+var el=document.getElementsByTagName("script")[0];s.src="https://7gra.us/consentbar/consent-bar.min.js?v=7";el.parentNode.insertBefore(s,el);var iterator=0;var initConsentBar=setInterval(function(){if(typeof window.ConsentBar!=="undefined"||iterator++>100){clearInterval(initConsentBar);window.consentBar=new ConsentBar({"enable":true,"blocking":false,"language":"pt","privacy_page":"\/info.php?info=privacidade"});window.consentBar.showBar();}},100);}}
+window[window.attachEvent?"attachEvent":"addEventListener"](window.attachEvent?"onload":"load",function(){var eu=localStorage.getItem("sg_eu");var btn=document.getElementsByClassName("cookies_manager");if(btn.length>0){var btnStyle="color:#286fb0; text-decoration: underline; cursor: pointer";btn[0].style.cssText=btnStyle;}
+if(eu===null){var request=new XMLHttpRequest();request.open("GET",window.location.protocol+"//eu.7gra.us/",true);request.onreadystatechange=function(){if(this.readyState===4&&this.status===200){eu=this.responseText;localStorage.setItem("sg_eu",eu);loadBar(eu=="1");}};request.send();}else{loadBar(eu=="1");}
+var iterator=0;var isConsentBarRunning=setInterval(function(){if(typeof window.ConsentBar!=="undefined"||iterator++>100){clearInterval(isConsentBarRunning);if(btn.length>0){btn[0].onclick=function(){window.consentBar.showBar(true);}}}},100);},false);})();
+ sg-bhof
+ script (async()=>{if('loading'in HTMLImageElement.prototype){const allLazyloadImages=document.querySelectorAll("img[loading][data-src]");allLazyloadImages.forEach(img=>{img.src=img.dataset.src;});}else{const lazySizesCdn=await import('https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js');lazySizes.init();}})();
+ 
+
+
+
+WebTakes Reference
+
+- From: <https://www.pensador.com/pensamentos/>
+- When: 2022-05-24T22:29:15Z
