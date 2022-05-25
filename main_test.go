@@ -13,18 +13,18 @@ type TestCase struct {
 
 func testCaseWithPaths() *TestCase {
 	args := []string{"webtakes", "-i", "www.test.com", "-o", "output/dir"}
-	criteria, _, _ := lib.Startup()
-	criteria.Input = "www.test.com"
-	criteria.Output = "output/dir"
+	criteria, _, _, _ := lib.Startup()
+	criteria.OfInput = "www.test.com"
+	criteria.ToOutput = "output/dir"
 	return &TestCase{args, criteria}
 }
 
 func testCaseWithSave() *TestCase {
 	args := []string{"webtakes", "-i", "www.test.com", "-o", "output/dir",
 		lib.GetClass, "Prepend", "prepend with", "Append", "append with"}
-	criteria, _, save := lib.Startup()
-	criteria.Input = "www.test.com"
-	criteria.Output = "output/dir"
+	criteria, _, _, save := lib.Startup()
+	criteria.OfInput = "www.test.com"
+	criteria.ToOutput = "output/dir"
 	save.GetWhat = lib.GetClass
 	save.Prepend = "prepend with"
 	save.Append = "append with"
@@ -37,9 +37,9 @@ func testCaseAllBasics() *TestCase {
 		lib.CheckText, lib.AtParent, lib.SeemsNotLike, lib.ThatStarts,
 		"Which", "by which", lib.TieOr,
 	}
-	criteria, clause, save := lib.Startup()
-	criteria.Input = "www.test.com"
-	criteria.Output = "output/dir"
+	criteria, _, clause, save := lib.Startup()
+	criteria.OfInput = "www.test.com"
+	criteria.ToOutput = "output/dir"
 	save.GetWhat = lib.GetClass
 	save.Prepend = "prepend with"
 	save.Append = "append with"
@@ -56,13 +56,13 @@ func testCaseMultipleSaves() *TestCase {
 	args := []string{"webtakes", "-i", "www.test.com", "-o", "output/dir",
 		lib.GetClass, "Prepend", "prepend with", "Append", "append with",
 		lib.SaveNew, lib.GetAttr, "Prepend", "attr pre with", "Append", "attr pos with"}
-	criteria, clause, save := lib.Startup()
-	criteria.Input = "www.test.com"
-	criteria.Output = "output/dir"
+	criteria, extract, _, save := lib.Startup()
+	criteria.OfInput = "www.test.com"
+	criteria.ToOutput = "output/dir"
 	save.GetWhat = lib.GetClass
 	save.Prepend = "prepend with"
 	save.Append = "append with"
-	save = clause.NewSave()
+	save = extract.NewSave()
 	save.GetWhat = lib.GetAttr
 	save.Prepend = "attr pre with"
 	save.Append = "attr pos with"

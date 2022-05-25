@@ -59,7 +59,6 @@ const (
 )
 
 type Clause struct {
-	Saves []Save
 	Check string
 	HasAt string
 	Seems string
@@ -68,22 +67,41 @@ type Clause struct {
 	TieBy string
 }
 
-type Criteria struct {
-	Input   string
+type Extract struct {
+	Saves   []Save
 	Clauses []Clause
-	Output  string
 }
 
-func Startup() (*Criteria, *Clause, *Save) {
+type Criteria struct {
+	OfInput  string
+	Extracts []Extract
+	ToOutput string
+}
+
+func Startup() (*Criteria, *Extract, *Clause, *Save) {
 	criteria := Criteria{}
-	clause := criteria.NewClause()
-	save := clause.NewSave()
-	return &criteria, clause, save
+	extract, clause, save := criteria.NewExtract()
+	return &criteria, extract, clause, save
 }
 
-func (criteria *Criteria) NewClause() *Clause {
+func (c *Criteria) NewExtract() (*Extract, *Clause, *Save) {
+	newExtract := Extract{}
+	newClause := newExtract.NewClause()
+	newSave := newExtract.NewSave()
+	c.Extracts = append(c.Extracts, newExtract)
+	return &newExtract, newClause, newSave
+}
+
+func (e *Extract) NewSave() *Save {
+	newSave := Save{
+		GetWhat: GetText,
+	}
+	e.Saves = append(e.Saves, newSave)
+	return &newSave
+}
+
+func (e *Extract) NewClause() *Clause {
 	newClause := Clause{
-		Saves: []Save{},
 		Check: CheckTag,
 		HasAt: AtActual,
 		Seems: SeemsLikeAs,
@@ -91,30 +109,22 @@ func (criteria *Criteria) NewClause() *Clause {
 		Which: "",
 		TieBy: TieAnd,
 	}
-	criteria.Clauses = append(criteria.Clauses, newClause)
+	e.Clauses = append(e.Clauses, newClause)
 	return &newClause
 }
 
-func (c *Clause) NewSave() *Save {
-	newSave := Save{
-		GetWhat: GetText,
-	}
-	c.Saves = append(c.Saves, newSave)
-	return &newSave
-}
-
 func Take(criteria *Criteria) {
-	resp, err := http.Get(criteria.Input)
+	resp, err := http.Get(criteria.OfInput)
 	if err != nil {
 		panic(err)
 	}
-	file, err := os.Create(criteria.Output)
+	file, err := os.Create(criteria.ToOutput)
 	if err != nil {
 		panic(err)
 	}
 	defer file.Close()
 	GetContents(resp.Body, file)
-	PutReferences(file, criteria.Input)
+	PutReferences(file, criteria.OfInput)
 }
 
 func GetContents(fromBody io.ReadCloser, toFile *os.File) {

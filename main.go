@@ -9,7 +9,7 @@ import (
 func Parse(args []string) *lib.Criteria {
 	index := 1
 	length := len(args)
-	criteria, clause, save := lib.Startup()
+	criteria, extract, clause, save := lib.Startup()
 	for index < length {
 		thisArg := args[index]
 		nextArg := ""
@@ -17,10 +17,10 @@ func Parse(args []string) *lib.Criteria {
 			nextArg = args[index+1]
 		}
 		if thisArg == "-i" || thisArg == "--input" {
-			criteria.Input = nextArg
+			criteria.OfInput = nextArg
 			index++
 		} else if thisArg == "-o" || thisArg == "--output" {
-			criteria.Output = nextArg
+			criteria.ToOutput = nextArg
 			index++
 		} else if strings.HasPrefix(thisArg, "Get") {
 			save.GetWhat = thisArg
@@ -31,7 +31,7 @@ func Parse(args []string) *lib.Criteria {
 			save.Append = nextArg
 			index++
 		} else if thisArg == lib.SaveNew {
-			save = clause.NewSave()
+			save = extract.NewSave()
 		} else if strings.HasPrefix(thisArg, "Check") {
 			clause.Check = thisArg
 		} else if strings.HasPrefix(thisArg, "At") {
@@ -45,9 +45,10 @@ func Parse(args []string) *lib.Criteria {
 			index++
 		} else if strings.HasPrefix(thisArg, "Tie") {
 			if thisArg == "TieNew" {
-				clause = criteria.NewClause()
+				extract, clause, save = criteria.NewExtract()
 			} else {
 				clause.TieBy = thisArg
+				clause = extract.NewClause()
 			}
 		}
 		index++
