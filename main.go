@@ -2,35 +2,59 @@ package main
 
 import (
 	"os"
-	"strconv"
 	"strings"
 	"webtakes/lib"
 )
 
-func main() {
-	var is_input = true
-	var is_output = false
-	var inputs = []string{}
-	var outputs = []string{}
+func Parse(args []string) *lib.Criteria {
 	index := 1
-	length := len(os.Args)
+	length := len(args)
+	criteria, clause, save := lib.Startup()
 	for index < length {
-		if os.Args[index] == "-i" || os.Args[index] == "--input" {
-			is_input = true
-		} else if os.Args[index] == "-o" || os.Args[index] == "--output" {
-			is_output = true
-		} else if is_input {
-			inputs = append(inputs, strings.ToLower(os.Args[index]))
-		} else if is_output {
-			outputs = append(outputs, strings.ToLower(os.Args[index]))
+		thisArg := args[index]
+		nextArg := ""
+		if index+1 < length {
+			nextArg = args[index+1]
+		}
+		if thisArg == "-i" || thisArg == "--input" {
+			criteria.Input = nextArg
+			index++
+		} else if thisArg == "-o" || thisArg == "--output" {
+			criteria.Output = nextArg
+			index++
+		} else if strings.HasPrefix(thisArg, "Get") {
+			save.GetWhat = thisArg
+		} else if thisArg == "Prepend" {
+			save.Prepend = nextArg
+			index++
+		} else if thisArg == "Append" {
+			save.Append = nextArg
+			index++
+		} else if thisArg == "SaveToo" {
+			save = clause.NewSave()
+		} else if strings.HasPrefix(thisArg, "Check") {
+			clause.Check = thisArg
+		} else if strings.HasPrefix(thisArg, "At") {
+			clause.HasAt = thisArg
+		} else if strings.HasPrefix(thisArg, "Seems") {
+			clause.Seems = thisArg
+		} else if strings.HasPrefix(thisArg, "That") {
+			clause.Thats = thisArg
+		} else if thisArg == "Which" {
+			clause.Which = nextArg
+			index++
+		} else if strings.HasPrefix(thisArg, "Tie") {
+			if thisArg == "TieNew" {
+				clause = criteria.NewClause()
+			} else {
+				clause.TieBy = thisArg
+			}
 		}
 		index++
 	}
-	for index, input := range inputs {
-		output := "taken " + strconv.Itoa(index) + ".txt"
-		if index < len(outputs) {
-			output = outputs[index]
-		}
-		lib.Take(input, output)
-	}
+	return criteria
+}
+
+func main() {
+	lib.Take(Parse(os.Args))
 }
