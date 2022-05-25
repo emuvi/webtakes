@@ -11,7 +11,7 @@ type TestCase struct {
 	criteria *lib.Criteria
 }
 
-func testCase1() *TestCase {
+func testCaseWithPaths() *TestCase {
 	args := []string{"webtakes", "-i", "www.test.com", "-o", "output/dir"}
 	criteria, _, _ := lib.Startup()
 	criteria.Input = "www.test.com"
@@ -19,9 +19,62 @@ func testCase1() *TestCase {
 	return &TestCase{args, criteria}
 }
 
+func testCaseWithSave() *TestCase {
+	args := []string{"webtakes", "-i", "www.test.com", "-o", "output/dir",
+		lib.GetClass, "Prepend", "prepend with", "Append", "append with"}
+	criteria, _, save := lib.Startup()
+	criteria.Input = "www.test.com"
+	criteria.Output = "output/dir"
+	save.GetWhat = lib.GetClass
+	save.Prepend = "prepend with"
+	save.Append = "append with"
+	return &TestCase{args, criteria}
+}
+
+func testCaseAllBasics() *TestCase {
+	args := []string{"webtakes", "-i", "www.test.com", "-o", "output/dir",
+		lib.GetClass, "Prepend", "prepend with", "Append", "append with",
+		lib.CheckText, lib.AtParent, lib.SeemsNotLike, lib.ThatStarts,
+		"Which", "by which", lib.TieOr,
+	}
+	criteria, clause, save := lib.Startup()
+	criteria.Input = "www.test.com"
+	criteria.Output = "output/dir"
+	save.GetWhat = lib.GetClass
+	save.Prepend = "prepend with"
+	save.Append = "append with"
+	clause.Check = lib.CheckText
+	clause.HasAt = lib.AtParent
+	clause.Seems = lib.SeemsNotLike
+	clause.Thats = lib.ThatStarts
+	clause.Which = "by which"
+	clause.TieBy = lib.TieOr
+	return &TestCase{args, criteria}
+}
+
+func testCaseMultipleSaves() *TestCase {
+	args := []string{"webtakes", "-i", "www.test.com", "-o", "output/dir",
+		lib.GetClass, "Prepend", "prepend with", "Append", "append with",
+		lib.SaveNew, lib.GetAttr, "Prepend", "attr pre with", "Append", "attr pos with"}
+	criteria, clause, save := lib.Startup()
+	criteria.Input = "www.test.com"
+	criteria.Output = "output/dir"
+	save.GetWhat = lib.GetClass
+	save.Prepend = "prepend with"
+	save.Append = "append with"
+	save = clause.NewSave()
+	save.GetWhat = lib.GetAttr
+	save.Prepend = "attr pre with"
+	save.Append = "attr pos with"
+	return &TestCase{args, criteria}
+}
+
 func TestParse(t *testing.T) {
 	testCases := []TestCase{
-		*testCase1(),
+		*testCaseWithPaths(),
+		*testCaseWithSave(),
+		*testCaseAllBasics(),
+		*testCaseMultipleSaves(),
 	}
 	for _, testCase := range testCases {
 		criteriaGot := Parse(testCase.args)
