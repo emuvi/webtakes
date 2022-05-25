@@ -26,7 +26,7 @@ func TestParse(t *testing.T) {
 	for _, testCase := range testCases {
 		criteriaGot := Parse(testCase.args)
 		if reflect.DeepEqual(criteriaGot, testCase.criteria) == false {
-			t.Errorf("Parse(%v) == %v, want %v", testCase.args, criteriaGot, testCase.criteria)
+			t.Errorf("Parse of (%v) got %v and expected %v", testCase.args, criteriaGot, testCase.criteria)
 		}
 	}
 }
