@@ -17,7 +17,7 @@ const (
 	GetTag   = "GetTag"
 )
 
-type ToSave struct {
+type Save struct {
 	GetWhat string
 	Prepend string
 	Append  string
@@ -56,12 +56,12 @@ const (
 )
 
 type Clause struct {
-	Saves []ToSave
+	Saves []Save
 	Check string
 	HasAt string
 	Seems string
-	That  string
-	With  string
+	Thats string
+	Which string
 	TieBy string
 }
 
